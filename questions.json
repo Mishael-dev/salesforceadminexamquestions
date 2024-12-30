@@ -1,10 +1,10 @@
 [
     {
-        "question": "Northern Trail outfitters has hired interns to enter Leads into Salesforce and has requested a way to identify these new records from existing Leads. What approach should an administrator take to meet this requirement?",
+        "question": "Northern Trail Outfitters has hired interns to enter Leads into Salesforce and has requested a way to identify these new records from existing Leads. What approach should an administrator take to meet this requirement?",
         "answer1": "Create a separate Lead Lightning App.",
         "answer2": "Define a record type and assign it to the interns.",
         "answer3": "Set up Web-to-Lead form the interns use.",
-        "answer4": "Update the active Leas Assignment Rules.",
+        "answer4": "Update the active Lead Assignment Rules.",
         "correctanswer": [2]
     },
     {
@@ -17,8 +17,8 @@
     },
     {
         "question": "Northern Trail Outfitters wants emails received from customers to generate cases automatically. How should the administrator ensure that the emails are sent to the correct queue?",
-        "answer1": "Create an Escalation Rules to send cases to the correct queue.",
-        "answer2": "Use a custom email services to set the owner of the case upon creation.",
+        "answer1": "Create an Escalation Rule to send cases to the correct queue.",
+        "answer2": "Use a custom email service to set the owner of the case upon creation.",
         "answer3": "Configure Email-to-Case so emails are delivered to the correct queue.",
         "answer4": "Utilize a flow to identify the correct queue and assign the case.",
         "correctanswer": [3]
@@ -48,7 +48,7 @@
         "correctanswer": [2, 3]
     },
     {
-        "question": "The events manager at Dream House Realty has a hot lead from a successful open house that needs to become a contact with an associated opportunity. How should this be accomplished from the campaign keeping the associated campaign member history?",
+        "question": "The events manager at Dreamhouse Realty has a hot lead from a successful open house that needs to become a contact with an associated opportunity. How should this be accomplished from the campaign keeping the associated campaign member history?",
         "answer1": "Clone the lead and convert the cloned record to a contact.",
         "answer2": "Add a contact from a campaign member detail page.",
         "answer3": "Delete the lead and create a new contact and opportunity.",
@@ -72,11 +72,93 @@
         "correctanswer": [1, 3]
     },
     {
-        "question": "The administrator at Cloud Kicks writes an assignment rule to send all cases created via email or the web to the Automated Cases Queue. Any manually created cases should be owned by the agent creating them, however, the manually created cases now show the administrator as the owner. What will the administrator find when troubleshooting this issue?",
+        "question": "The administrator at Cloud Kicks writes an assignment rule to send all cases created via email or the web to the Automated Cases Queue. Any manually created cases should be owned by the agent creating them; however, the manually created cases now show the administrator as the owner. What will the administrator find when troubleshooting this issue?",
         "answer1": "The Assignment Rule checkbox is selected by default.",
         "answer2": "The Owner field is missing on the webform and email template.",
         "answer3": "An escalation rule is changing the case owner on case creation.",
         "answer4": "Another assignment rule is giving ownership to the administrator.",
         "correctanswer": [1]
-    }
-]
+    },
+        {
+          "question": "What are two considerations an administrator should keep in mind when working with Salesforce objects?",
+          "answer1": "A new standard object can be created.",
+          "answer2": "Only standard objects support master-detail relationships.",
+          "answer3": "Custom and standard objects have standard fields.",
+          "answer4": "Standard objects are included with Salesforce.",
+          "correctanswer": [3, 4]
+        },
+        {
+          "question": "Cloud Kicks wants a reports to categorize accounts into small, medium, and large based on the dollar value found in the Contract Value Field.",
+          "answer1": "Detail Column",
+          "answer2": "Group Rows",
+          "answer3": "Bucket Column",
+          "answer4": "Filter Logic",
+          "correctanswer": [3]
+        },
+        {
+          "question": "The Client services and customer support teams share the same profile but have different permission sets. The Custom Object Retention related list needs to be restricted to the client services team on the Lightning record page layout.",
+          "answer1": "Sharing settings",
+          "answer2": "Component Visibility",
+          "answer3": "Page Layout Assignment",
+          "answer4": "Record Type Assignment",
+          "correctanswer": [2]
+        },
+        {
+          "question": "Sales reps miss key fields when filling out on opportunity record through the process. Reps need to move forward Win unable to enter previous stage.",
+          "answer1": "Use Validation Rules.",
+          "answer2": "Use Flow to mark fields required.",
+          "answer3": "Mark fields required on the page layout.",
+          "answer4": "Configure Opportunity Path.",
+          "answer5": "Enable guided selling.",
+          "correctanswer": [1, 2, 4]
+        },
+        {
+          "question": "An administrator Creates a custom text area field on the Account object and adds it to the service team's page layout. The services team manager loves the addition of this field and wants it to appear in the highlights panel so that the services reps can quickly find it when on the Account Page How should the administrator accomplish this?",
+          "answer1": "From the page layout editor, drag the field to the highlights panel.",
+          "answer2": "Make the field required and move it to the top of the page.",
+          "answer3": "In the Account object manager, create a custom compact layout.",
+          "answer4": "Create a new page layout and a new section titled highlights panel.",
+          "correctanswer": [3]
+        },
+        {
+          "question": "Ursa Major Solar is noticing a decrease in deals with a cross-sell opportunity type and wants to share all cross-sell opportunities with a team of subject matter experts in their organisation. The company has different roles, and the organisation wide default opportunity is set to private. How should the administrator accomplish this?",
+          "answer1": "Add the subject matter experts to a public group and give them access to records with a criteria-based sharing rule.",
+          "answer2": "Enable territory management, assign the subject matter experts to the same territory, and give them access to the records with manual sharing.",
+          "answer3": "Change the organisation-wide default for opportunity from private to public Read/Write to open up access for subject matter experts.",
+          "answer4": "Create a new role for the subject matter experts and give them access to the records with the owner-based sharing rule.",
+          "correctanswer": [1]
+        },
+        {
+          "question": "Northern Trail Outfitters has requested that when the Referral Date field is updated on the custom object Referral Source, the parent object Referral also needs to be updated. Which automation solution should an administrator use to meet this request?",
+          "answer1": "Process Builder",
+          "answer2": "Workflow Field Update",
+          "answer3": "Lightning Web Component",
+          "answer4": "Approval Process",
+          "correctanswer": [1]
+        },
+        {
+          "question": "Universal Containers has enabled Data Protection and Privacy for its org. Which page layouts will have the Individual field available for tracking data privacy information?",
+          "answer1": "Account and User",
+          "answer2": "Individual, User, and Account",
+          "answer3": "Contact, Lead, and Person Account",
+          "answer4": "Case and Opportunity",
+          "correctanswer": [3]
+        },
+        {
+          "question": "The Administrator at Universal Container wants to add branding to Salesforce. Which two considerations should the administrator keep in mind?",
+          "answer1": "Themes apply to Salesforce classic and to the Salesforce mobile app.",
+          "answer2": "Chatter external users see the built-in Lightning theme only.",
+          "answer3": "Only one theme can be active at a time, and a theme applies to the entire org.",
+          "answer4": "Up to 150 custom themes can be created, modified, or cloned from the built-in themes.",
+          "correctanswer": [3, 4]
+        },
+        {
+          "question": "Sales reps at Northern Trail Outfitters have asked for a way to change the Probability field value of their Opportunities.",
+          "answer1": "Configure Forecasting support.",
+          "answer2": "Create a custom field on Opportunity.",
+          "answer3": "Make the field editable on page layouts.",
+          "answer4": "Define a new Stage picklist value.",
+          "correctanswer": [3]
+        }
+      ]
+      

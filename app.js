@@ -12,9 +12,7 @@ let next_question_button = document.getElementById("next_question");
 let previous_question_button = document.getElementById("previous_question");
 let show_answer_button = document.getElementById("show_answer");
 
-let question_number_element = document.getElementById(
-  "question_number_element"
-);
+let question_number_element = document.getElementById("question_number_element");
 
 let random_question_button = document.getElementById("random_question");
 
@@ -22,7 +20,7 @@ class Question {
   constructor() {
     this.index = 0; // Start with the first question
     this.questions = []; // Array to hold the questions
-    this.correctAnswer = 0; // Correct answer index
+    this.correctAnswer = []; // Correct answers as an array
     this.showQuestionNumber();
   }
 
@@ -39,7 +37,7 @@ class Question {
       let { question, answer1, answer2, answer3, answer4, correctanswer } =
         currentQuestion;
       this.loadQuestions(question, answer1, answer2, answer3, answer4);
-      this.correctAnswer = correctanswer;
+      this.correctAnswer = correctanswer; // Assign correct answers array
     } else {
       console.log("No questions available");
     }
@@ -54,34 +52,34 @@ class Question {
   }
 
   showAnswer() {
-    if (this.correctAnswer > 0 && this.correctAnswer <= 4) {
-      // Highlight the correct answer label
-      switch (this.correctAnswer) {
-        case 1:
-          answer1_label.style.background = "#4bb543";
-          break;
-        case 2:
-          answer2_label.style.background = "#4bb543";
-          break;
-        case 3:
-          answer3_label.style.background = "#4bb543";
-          break;
-        case 4:
-          answer4_label.style.background = "#4bb543";
-          break;
-        default:
-          console.log("Invalid answer index");
-      }
+    this.unshow_answer(); // Clear previous highlights
+    if (Array.isArray(this.correctAnswer) && this.correctAnswer.length > 0) {
+      // Highlight each correct answer
+      this.correctAnswer.forEach((answer) => {
+        switch (answer) {
+          case 1:
+            answer1_label.style.background = "#4bb543";
+            break;
+          case 2:
+            answer2_label.style.background = "#4bb543";
+            break;
+          case 3:
+            answer3_label.style.background = "#4bb543";
+            break;
+          case 4:
+            answer4_label.style.background = "#4bb543";
+            break;
+          default:
+            console.log("Invalid answer index");
+        }
+      });
     }
   }
 
   unshow_answer() {
     answer1_label.style.background = "white";
-
     answer2_label.style.background = "white";
-
     answer3_label.style.background = "white";
-
     answer4_label.style.background = "white";
 
     answer1_checkbox.checked = false;

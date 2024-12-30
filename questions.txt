@@ -1,0 +1,135 @@
+NO.1 Northern Trail outfitters has hired interns to enter Leads into Salesforce and has requested a way to is identify these new records from existing Leads. 
+What approach should an administrator take to meet this requirement? 
+A. Create a separate Lead Lightning App. 
+B. Define a record type and assign it to the interns. 
+C. Set up Web-to-Lead form the interns use. 
+D. Update the active Leas Assignment Rules. 
+Answer: B 
+NO.2 Universal Containers is trying to improve the user experience when searching for the tight status on a case. 
+The company currently has one support process that is used for all record types on cases. The support process has 10 status values. Service reps say they never need more than five depending on what kind of case they are working on. 
+How should the administrator improve on the current implementation? 
+A. Create a Screen Flow that shows only the correct values for status and surface the flow in the utility bar of the console. 
+B. Review which status choices are needed for each record type and create support processes for each that is necessary. 
+C. Reduce the number of case status values to five. 
+D. Edit the status choices directly on the record type. 
+Answer: B 
+NO.3 Northern Trail Outfitters wants emails received from customers to generate cases automatically. 
+How should the administrator ensure that the emails are sent to the correct queue? A. Create an Escalation Rules to send cases to the correct queue. 
+B. Use a custom email services to set the owner of the case upon creation. 
+C. Configure Email-to-Case so emails are delivered to the correct queue 
+D. Utilize a flow to identify the correct queue and assign the case. 
+Answer: C 
+NO.4 Which tool should an administrator use to identify and fix potential session vulnerabilities? A. Security Health Check 
+B. Field History Tracking 
+C. Setup Audit Trail 
+D. Organization-Wide Defaults 
+Answer: A 
+NO.5 Which two solutions could an administrator find on the AppExchange to enhance their organization? 
+Choose 2 answers 
+A. Components 
+B. Consultants 
+C. Customers 
+D. Communities 
+Answer: A,D 
+NO.6 Northern Trail Outfitters wants to initiate expense reports from Salesforce to the external HR system. This process needs to be reviewed by managers and directors. 
+Which two tools should and administrator configure? 
+Choose 2 answers 
+A. Quick Action 
+B. Outbound Message 
+C. Approval Process 
+D. Email Alert Action 
+Answer: B,C 
+NO.7 The events manager at dream house realty has a hot lead from a successful open house that needs to become a contact with an associated opportunity. 
+How should this be accomplished from the campaign keeping the associated campaign member history? 
+A. Clone the lead and convert the cloned record to a contact. 
+B. Add a contact from a campaign member detail page. 
+C. Delete the lead and create a new contact and opportunity. 
+D. Convert the lead from the campaign member detail page. 
+Answer: D 
+NO.8 The administrator at cloud kicks is trying to debug a screen flow that create contacts. One of the variables in the flow is missing on the debug screen. 
+What could cause this issue? 
+A. The field type is unsupported by debugging. 
+B. The available for output checkbox was unchecked. 
+C. The available for input checkbox was unchecked. 
+D. The flow is an inactive version 
+Answer: A 
+NO.9 Northern Trail Outfitters wants to track ROI for contacts that are key stakeholders for opportunities. 
+The VP of Sales requested that this information be accessible on the opportunity and available for reporting. 
+Which two options should the administrator configure to meet these requirements? Choose 2 answers 
+A. Add the Opportunity Contact Role related list to the Opportunity page layout. B. Customize Campaign Member Role. 
+C. Customize Opportunity Contact Role. 
+D. Add the Campaign Member related list to the Opportunity page layout. 
+E. Customize Campaign Role. 
+
+Answer: A,C 
+NO.10 The administrator at Cloud Kicks writes an assignment rule to send all cases created via email or the web to the Automated Cases Queue Any manually created cases should be owned by the agent creating them, however, the manually created cases now show the administrator as the owner . 
+What will the administrator find when troubleshooting this issue? 
+A. The Assignment Rule checkbox is selected by default. 
+B. The Owner field is missing on the webform and email template. 
+C. An escalation rule is changing the case owner on case creation 
+D. Another assignment rule is giving ownership to the administrator 
+Answer: A 
+NO.11 What are two considerations an administrator should keep in mind when working with Salesforce objects? 
+Choose 2 answers 
+A. A new standard object can be created. 
+B. Only standard objects support master-detail relationships. 
+C. Custom and standard objects have standard fields. 
+D. Standard objects are included with Salesforce. 
+Answer: C,D 
+NO.12 Cloud Kicks wants a reports to categorize accounts into small, medium, and large based on the dollar value found in the Contract Value Field. 
+What feature should an administrator use to meet this request? 
+A. Detail Column 
+B. Group Rows 
+C. Bucket Column 
+D. Filter Logic 
+Answer: C 
+NO.13 The Client services and customer support teams share the same profile but have different permission sets. The Custom Object Retention related list needs to be restricted to the client services teamon the Lightning record page layout. 
+What should the administrator use to fulfil this request? 
+A. Sharing settings 
+B. Component Visibility 
+C. Page Layout Assignment 
+D. Record Type Assignment 
+Answer: B 
+NO.14 Sales reps miss key fields when filling out on opportunity record through the process. Reps need to move forward Win unable to enter previous stage. 
+Which three options should the administrator use to address this need? 
+Choose Three answers 
+A. Use Validation Rules. 
+B. Use Flow to mark fields required. 
+C. Mark fields required on the page layout. 
+D. Configure Opportunity Path. 
+E. Enable guided selling. 
+Answer: A,B,D 
+NO.15 An administrator Creates a custom text area field on the Account object and adds it to the service team's page layout. The services team manager loves the addition of this field and wants it to appear in the highlights panel so that the services reps can quickly find it when on the Account Page How should the administrator accomplish this? 
+A. From the page layout editor, drag the field to the highlights panel. 
+B. Make the field required and move it to the top of the page. 
+C. In the Account object manager, create a custom compact layout. 
+D. Create a new page layout and a new section titled highlights panel. 
+Answer: C 
+NO.16 Ursa Major Solar is noticing a decrease in deals with a cross-sell opportunity type and wants to share all cross-sell opportunities with a team of subject matter experts in their organisation. The company has different roles, and the organisation wide default opportunity is set to private. How should the administrator accomplish this? 
+A. Add the subject matter experts to a public group and give them access to records with a criteriabased sharing rule. 
+B. Enable territory management, assign the subject matter experts to the same territory, and give them access to the records with manual sharing. 
+C. Change the organisation-wide default for opportunity from private to public Read/Write to open up access for subject matter experts. 
+D. Create a new role for the subject matter experts and give them access to the records with the owner-based sharing rule 
+Answer: A 
+NO.17 Northern Trail Outfitters has requested that when the Referral Date field is updated on the custom object Referral Source, the parent object Referral also needs to be updated. Which automation solution should an administrator use to meet this request? A. Process Builder 
+B. Workflow Field Update 
+C. Lightning Web Component 
+D. Approval Process 
+Answer: A 
+NO.18 Universal Containers has enabled Data Protection and Privacy for its org. Which page layouts will have the Individual field available for tracking data privacy information? A. Account and User 
+B. Individual, User, and Account 
+C. Contact, Lead, and Person Account 
+D. Case and Opportunity 
+Answer: C 
+NO.19 The Administrator at Universal Container wants to add branding to salesforce. Which two considerations should the administrator keep in mind? 
+Choose 2 Answers 
+A. Themes apply to salesforce classic and to the salesforce mobile app. 
+B. Chatter external users see the built-in Lightning theme only. 
+C. Only one theme can be active at a time, and a theme applies to the entire org. D. Up to 150 custom themes can be created, modified, or cloned from the built-in themes. Answer: C,D 
+NO.20 Sales reps at Northern Trail Outfitters have asked for a way to change the Probability field value of their Opportunities. 
+What should an administrator suggest to meet this request? 
+A. Configure Forecasting support. 
+B. Create a custom field on Opportunity. 
+C. Make the field editable on page layouts 
+D. Define a new Stage picklist value. 
+Answer: C 
