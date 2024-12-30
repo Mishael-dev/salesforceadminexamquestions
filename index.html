@@ -1,0 +1,99 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flashcards</title>
+    <link rel="stylesheet" href="/global.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <span>Cos209 Flashcards</span>
+      <span class="question_number" id="question_number_element">23</span>
+    </header>
+    <main>
+      <div class="question_container">
+        <div class="question_header">
+          <h2 id="question_element" class="question">
+            Which is the fastest animal on land?
+          </h2>
+          <span id="show_answer" class="answer_button" href="#"
+            >Show answer</span
+          >
+        </div>
+        <ul class="options_container">
+          <li id="question1_container" class="option_object">
+            <input
+              class="option_checkbox"
+              id="answer1_checkbox"
+              type="checkbox"
+              name="option1"
+              value="Elephant"
+            /><label
+              id="answer1_label"
+              class="option_label"
+              for="answer1_checkbox"
+              >Elephant</label
+            >
+          </li>
+
+          <li id="question2_container" class="option_object">
+            <input
+              class="option_checkbox"
+              id="answer2_checkbox"
+              type="checkbox"
+              name="option1"
+              value="Elephant"
+            /><label
+              id="answer2_label"
+              class="option_label"
+              for="answer2_checkbox"
+              >chetah</label
+            >
+          </li>
+
+          <li id="question3_container" class="option_object">
+            <input
+              class="option_checkbox"
+              id="answer3_checkbox"
+              type="checkbox"
+              name="option1"
+              value="Elephant"
+            /><label
+              id="answer3_label"
+              class="option_label"
+              for="answer3_checkbox"
+              >Lion</label
+            >
+          </li>
+
+          <li id="question4_container" class="option_object">
+            <input
+              class="option_checkbox"
+              id="answer4_checkbox"
+              type="checkbox"
+              name="option1"
+              value="Elephant"
+            /><label
+              id="answer4_label"
+              class="option_label"
+              for="answer4_checkbox"
+              >giraffe</label
+            >
+          </li>
+        </ul>
+      </div>
+
+      <div class="buttons">
+        <span id="previous_question" class="question_button previous"
+          >Previous</span
+        >
+        <span id="random_question" class="question_button previous"
+          >Random</span
+        >
+        <span id="next_question" class="next question_button"> Next </span>
+      </div>
+    </main>
+  </body>
+  <script type="module" src="./app.js"></script>
+</html>

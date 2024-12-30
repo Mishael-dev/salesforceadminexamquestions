@@ -1,0 +1,82 @@
+[
+    {
+        "question": "Northern Trail outfitters has hired interns to enter Leads into Salesforce and has requested a way to identify these new records from existing Leads. What approach should an administrator take to meet this requirement?",
+        "answer1": "Create a separate Lead Lightning App.",
+        "answer2": "Define a record type and assign it to the interns.",
+        "answer3": "Set up Web-to-Lead form the interns use.",
+        "answer4": "Update the active Leas Assignment Rules.",
+        "correctanswer": [2]
+    },
+    {
+        "question": "Universal Containers is trying to improve the user experience when searching for the right status on a case. The company currently has one support process that is used for all record types on cases. The support process has 10 status values. Service reps say they never need more than five depending on what kind of case they are working on. How should the administrator improve on the current implementation?",
+        "answer1": "Create a Screen Flow that shows only the correct values for status and surface the flow in the utility bar of the console.",
+        "answer2": "Review which status choices are needed for each record type and create support processes for each that is necessary.",
+        "answer3": "Reduce the number of case status values to five.",
+        "answer4": "Edit the status choices directly on the record type.",
+        "correctanswer": [2]
+    },
+    {
+        "question": "Northern Trail Outfitters wants emails received from customers to generate cases automatically. How should the administrator ensure that the emails are sent to the correct queue?",
+        "answer1": "Create an Escalation Rules to send cases to the correct queue.",
+        "answer2": "Use a custom email services to set the owner of the case upon creation.",
+        "answer3": "Configure Email-to-Case so emails are delivered to the correct queue.",
+        "answer4": "Utilize a flow to identify the correct queue and assign the case.",
+        "correctanswer": [3]
+    },
+    {
+        "question": "Which tool should an administrator use to identify and fix potential session vulnerabilities?",
+        "answer1": "Security Health Check",
+        "answer2": "Field History Tracking",
+        "answer3": "Setup Audit Trail",
+        "answer4": "Organization-Wide Defaults",
+        "correctanswer": [1]
+    },
+    {
+        "question": "Which two solutions could an administrator find on the AppExchange to enhance their organization?",
+        "answer1": "Components",
+        "answer2": "Consultants",
+        "answer3": "Customers",
+        "answer4": "Communities",
+        "correctanswer": [1, 4]
+    },
+    {
+        "question": "Northern Trail Outfitters wants to initiate expense reports from Salesforce to the external HR system. This process needs to be reviewed by managers and directors. Which two tools should an administrator configure?",
+        "answer1": "Quick Action",
+        "answer2": "Outbound Message",
+        "answer3": "Approval Process",
+        "answer4": "Email Alert Action",
+        "correctanswer": [2, 3]
+    },
+    {
+        "question": "The events manager at Dream House Realty has a hot lead from a successful open house that needs to become a contact with an associated opportunity. How should this be accomplished from the campaign keeping the associated campaign member history?",
+        "answer1": "Clone the lead and convert the cloned record to a contact.",
+        "answer2": "Add a contact from a campaign member detail page.",
+        "answer3": "Delete the lead and create a new contact and opportunity.",
+        "answer4": "Convert the lead from the campaign member detail page.",
+        "correctanswer": [4]
+    },
+    {
+        "question": "The administrator at Cloud Kicks is trying to debug a screen flow that creates contacts. One of the variables in the flow is missing on the debug screen. What could cause this issue?",
+        "answer1": "The field type is unsupported by debugging.",
+        "answer2": "The available for output checkbox was unchecked.",
+        "answer3": "The available for input checkbox was unchecked.",
+        "answer4": "The flow is an inactive version.",
+        "correctanswer": [1]
+    },
+    {
+        "question": "Northern Trail Outfitters wants to track ROI for contacts that are key stakeholders for opportunities. The VP of Sales requested that this information be accessible on the opportunity and available for reporting. Which two options should the administrator configure to meet these requirements?",
+        "answer1": "Add the Opportunity Contact Role related list to the Opportunity page layout.",
+        "answer2": "Customize Campaign Member Role.",
+        "answer3": "Customize Opportunity Contact Role.",
+        "answer4": "Add the Campaign Member related list to the Opportunity page layout.",
+        "correctanswer": [1, 3]
+    },
+    {
+        "question": "The administrator at Cloud Kicks writes an assignment rule to send all cases created via email or the web to the Automated Cases Queue. Any manually created cases should be owned by the agent creating them, however, the manually created cases now show the administrator as the owner. What will the administrator find when troubleshooting this issue?",
+        "answer1": "The Assignment Rule checkbox is selected by default.",
+        "answer2": "The Owner field is missing on the webform and email template.",
+        "answer3": "An escalation rule is changing the case owner on case creation.",
+        "answer4": "Another assignment rule is giving ownership to the administrator.",
+        "correctanswer": [1]
+    }
+]

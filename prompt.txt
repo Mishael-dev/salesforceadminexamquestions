@@ -1,0 +1,9 @@
+I have an unstructured collection of questions and their answers in text format so im going to paste these questions here and you are going to format them to json in this exact format: {
+    "question": "Which language does Node.js use?", //the question
+    "answer1": "Python", //option
+    "answer2": "typescript", //option
+    "answer3": "JavaScript", //option
+    "answer4": "Ruby", //option
+    "correctanswer": [2,3] indexes of the right answers
+
+create an array of json objects and then add each of the questions to the array in the format specified above, if you see any field in the question that is not included in the format i sent you please do not include it i need you to strictly follow the format specified above, are you ready? 

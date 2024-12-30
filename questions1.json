@@ -1,0 +1,3112 @@
+[
+  {
+    "question": "What is Node.js primarily used for?",
+    "answer1": "Frontend Development",
+    "answer2": "Backend Development",
+    "answer3": "Database Management",
+    "answer4": "Game Development",
+    "correctanswer": 2
+  },
+  {
+    "question": "Which language does Node.js use?",
+    "answer1": "Python",
+    "answer2": "Java",
+    "answer3": "JavaScript",
+    "answer4": "Ruby",
+    "correctanswer": 3
+  },
+  {
+    "question": "Node.js is based on which runtime environment?",
+    "answer1": "V8",
+    "answer2": "Chakra",
+    "answer3": "SpiderMonkey",
+    "answer4": "Rhino",
+    "correctanswer": 1
+  },
+  {
+    "question": "How does Node.js handle I/O operations?",
+    "answer1": "Synchronous",
+    "answer2": "Asynchronous",
+    "answer3": "Concurrent",
+    "answer4": "Serial",
+    "correctanswer": 2
+  },
+  {
+    "question": "Which keyword is used to import modules in Node.js?",
+    "answer1": "import",
+    "answer2": "include",
+    "answer3": "require",
+    "answer4": "fetch",
+    "correctanswer": 3
+  },
+  {
+    "question": "What does module.exports do?",
+    "answer1": "Exports functions to other modules",
+    "answer2": "Initializes the module",
+    "answer3": "Imports other modules",
+    "answer4": "Sets up a new module",
+    "correctanswer": 1
+  },
+  {
+    "question": "Which module is used for creating an HTTP server?",
+    "answer1": "http",
+    "answer2": "server",
+    "answer3": "os",
+    "answer4": "express",
+    "correctanswer": 1
+  },
+  {
+    "question": "What does NPM stand for?",
+    "answer1": "Node Program Management",
+    "answer2": "Node Package Manager",
+    "answer3": "Network Program Manager",
+    "answer4": "Node Processing Module",
+    "correctanswer": 2
+  },
+  {
+    "question": "How do you install a package globally using NPM?",
+    "answer1": "npm install <package>",
+    "answer2": "npm install -g <package>",
+    "answer3": "npm add <package>",
+    "answer4": "npm -global install <package>",
+    "correctanswer": 2
+  },
+  {
+    "question": "What file contains dependencies for a Node.js project?",
+    "answer1": "config.json",
+    "answer2": "npm.json",
+    "answer3": "package.json",
+    "answer4": "dependencies.json",
+    "correctanswer": 3
+  },
+  {
+    "question": "Which function executes code after a specified delay?",
+    "answer1": "setTimeout",
+    "answer2": "setInterval",
+    "answer3": "setDelay",
+    "answer4": "asyncFunction",
+    "correctanswer": 1
+  },
+  {
+    "question": "Which Node.js module provides utilities for working with asynchronous callbacks?",
+    "answer1": "fs",
+    "answer2": "async",
+    "answer3": "util",
+    "answer4": "callbacks",
+    "correctanswer": 3
+  },
+  {
+    "question": "Node.js relies on which architecture to handle events?",
+    "answer1": "Procedural",
+    "answer2": "Synchronous",
+    "answer3": "Event-driven",
+    "answer4": "Multi-threaded",
+    "correctanswer": 3
+  },
+  {
+    "question": "Which module is central to event handling in Node.js?",
+    "answer1": "fs",
+    "answer2": "events",
+    "answer3": "http",
+    "answer4": "emitter",
+    "correctanswer": 2
+  },
+  {
+    "question": "What is Express.js primarily used for in Node.js?",
+    "answer1": "Frontend styling",
+    "answer2": "Data modeling",
+    "answer3": "Server-side framework",
+    "answer4": "Testing",
+    "correctanswer": 3
+  },
+  {
+    "question": "What function is used to create a route in Express.js?",
+    "answer1": "expressRoute()",
+    "answer2": "route()",
+    "answer3": "app.route()",
+    "answer4": "app.get()",
+    "correctanswer": 4
+  },
+  {
+    "question": "Which of the following is a best practice in Node.js?",
+    "answer1": "Blocking I/O operations",
+    "answer2": "Using synchronous functions",
+    "answer3": "Using asynchronous patterns",
+    "answer4": "Ignoring error handling",
+    "correctanswer": 3
+  },
+  {
+    "question": "What type of logging is recommended for production?",
+    "answer1": "console.log",
+    "answer2": "Verbose logging",
+    "answer3": "Structured logging",
+    "answer4": "Debug logging",
+    "correctanswer": 3
+  },
+  {
+    "question": "Which protocol does WebSocket use?",
+    "answer1": "HTTP",
+    "answer2": "HTTPS",
+    "answer3": "ws://",
+    "answer4": "socket.io",
+    "correctanswer": 3
+  },
+  {
+    "question": "What is the primary purpose of WebSocket?",
+    "answer1": "Database connections",
+    "answer2": "Real-time, two-way communication",
+    "answer3": "File transfer",
+    "answer4": "Video streaming",
+    "correctanswer": 2
+  },
+  {
+    "question": "In Express.js, middleware functions can modify the:",
+    "answer1": "Request and response objects",
+    "answer2": "Database schema",
+    "answer3": "Network protocols",
+    "answer4": "HTML templates",
+    "correctanswer": 1
+  },
+  {
+    "question": "What is the typical position of middleware in Express routes?",
+    "answer1": "Before the route handlers",
+    "answer2": "After the route handlers",
+    "answer3": "Middleware is independent of route handlers",
+    "answer4": "Middleware is only used with errors",
+    "correctanswer": 1
+  },
+  {
+    "question": "Which method is used to read data in chunks in Node.js?",
+    "answer1": "read()",
+    "answer2": "pipe()",
+    "answer3": "chunk()",
+    "answer4": "stream()",
+    "correctanswer": 2
+  },
+  {
+    "question": "Which type of stream is used to read data?",
+    "answer1": "Writable",
+    "answer2": "Readable",
+    "answer3": "Duplex",
+    "answer4": "Transform",
+    "correctanswer": 2
+  },
+  {
+    "question": "Which function is used to read a file synchronously in Node.js?",
+    "answer1": "fs.read()",
+    "answer2": "fs.readSync()",
+    "answer3": "fs.readFileSync()",
+    "answer4": "fs.syncRead()",
+    "correctanswer": 3
+  },
+  {
+    "question": "How do you write data to a file in an asynchronous way?",
+    "answer1": "fs.writeFileSync",
+    "answer2": "fs.appendFile",
+    "answer3": "fs.writeFile",
+    "answer4": "fs.writeAsync",
+    "correctanswer": 3
+  },
+  {
+    "question": "What does a Promise represent?",
+    "answer1": "A synchronous function",
+    "answer2": "A completed task",
+    "answer3": "An eventual result of an asynchronous operation",
+    "answer4": "A user input",
+    "correctanswer": 3
+  },
+  {
+    "question": "What does the await keyword do in an async function?",
+    "answer1": "Pauses execution until the Promise is resolved",
+    "answer2": "Rejects a Promise",
+    "answer3": "Schedules a callback",
+    "answer4": "Cancels an async function",
+    "correctanswer": 1
+  },
+  {
+    "question": "What is the purpose of the Event Loop in Node.js?",
+    "answer1": "Manages synchronous code",
+    "answer2": "Handles asynchronous operations",
+    "answer3": "Loads modules",
+    "answer4": "Manages HTTP requests",
+    "correctanswer": 2
+  },
+  {
+    "question": "The Event Loop executes which type of operations first?",
+    "answer1": "Network I/O",
+    "answer2": "Timers",
+    "answer3": "Microtasks",
+    "answer4": "File operations",
+    "correctanswer": 3
+  },
+  {
+    "question": "Which of the following is a Node.js feature?",
+    "answer1": "Blocking I/O",
+    "answer2": "Single-threaded event loop",
+    "answer3": "Multi-threaded architecture",
+    "answer4": "Client-side scripting",
+    "correctanswer": 2
+  },
+  {
+    "question": "What kind of applications is Node.js well-suited for?",
+    "answer1": "CPU-intensive applications",
+    "answer2": "I/O-bound applications",
+    "answer3": "GUI-based applications",
+    "answer4": "Desktop applications",
+    "correctanswer": 2
+  },
+  {
+    "question": "Which built-in method is used to output logs to the console in Node.js?",
+    "answer1": "log()",
+    "answer2": "console()",
+    "answer3": "output()",
+    "answer4": "console.log()",
+    "correctanswer": 4
+  },
+  {
+    "question": "Which of the following is NOT a core module in Node.js?",
+    "answer1": "os",
+    "answer2": "http",
+    "answer3": "express",
+    "answer4": "path",
+    "correctanswer": 3
+  },
+  {
+    "question": "How would you import a custom module located in the same directory?",
+    "answer1": "require('./module')",
+    "answer2": "require('module')",
+    "answer3": "import('module')",
+    "answer4": "module.exports('./module')",
+    "correctanswer": 1
+  },
+  {
+    "question": "How do you export multiple functions from a Node.js module?",
+    "answer1": "Use exports object with named properties",
+    "answer2": "Use module.exports with named properties",
+    "answer3": "Use return statement",
+    "answer4": "Import both functions in a single file",
+    "correctanswer": 1
+  },
+  {
+    "question": "Which command lists globally installed npm packages?",
+    "answer1": "npm list",
+    "answer2": "npm list -g",
+    "answer3": "npm -global list",
+    "answer4": "npm show global",
+    "correctanswer": 2
+  },
+  {
+    "question": "What does the --save flag do when installing an npm package?",
+    "answer1": "Installs the package locally",
+    "answer2": "Saves the package as a devDependency",
+    "answer3": "Adds the package to the dependencies field in package.json",
+    "answer4": "Deletes the package from node_modules",
+    "correctanswer": 3
+  },
+  {
+    "question": "How do you update npm itself to the latest version?",
+    "answer1": "npm update npm",
+    "answer2": "npm install npm -g",
+    "answer3": "npm upgrade",
+    "answer4": "npm self-update",
+    "correctanswer": 2
+  },
+  {
+    "question": "What does the callback function in asynchronous functions prevent?",
+    "answer1": "Race conditions",
+    "answer2": "Deadlocks",
+    "answer3": "Blocking code execution",
+    "answer4": "High memory usage",
+    "correctanswer": 3
+  },
+  {
+    "question": "Which of the following can handle asynchronous operations in Node.js?",
+    "answer1": "Events",
+    "answer2": "Promises",
+    "answer3": "async/await",
+    "answer4": "All of the above",
+    "correctanswer": 4
+  },
+  {
+    "question": "What is a callback hell?",
+    "answer1": "A situation with nested callbacks, making code unreadable",
+    "answer2": "Errors that occur in callback functions",
+    "answer3": "A place in memory where callbacks are stored",
+    "answer4": "When a callback is executed multiple times",
+    "correctanswer": 1
+  },
+  {
+    "question": "How do you listen to events in Node.js?",
+    "answer1": "By calling event.on()",
+    "answer2": "By calling event.listen()",
+    "answer3": "By using event.subscribe()",
+    "answer4": "By creating a new EventListener()",
+    "correctanswer": 1
+  },
+  {
+    "question": "Which method is used to emit an event in Node.js?",
+    "answer1": "emit()",
+    "answer2": "on()",
+    "answer3": "trigger()",
+    "answer4": "call()",
+    "correctanswer": 1
+  },
+  {
+    "question": "What is a key advantage of an event-driven model in Node.js?",
+    "answer1": "It handles synchronous code efficiently",
+    "answer2": "It improves memory management",
+    "answer3": "It scales well for handling multiple I/O requests",
+    "answer4": "It requires no error handling",
+    "correctanswer": 3
+  },
+  {
+    "question": "What is the default port used by Express applications?",
+    "answer1": "80",
+    "answer2": "443",
+    "answer3": "3000",
+    "answer4": "5000",
+    "correctanswer": 3
+  },
+  {
+    "question": "Which middleware is commonly used for parsing JSON in Express?",
+    "answer1": "body-parser",
+    "answer2": "json-parser",
+    "answer3": "cookie-parser",
+    "answer4": "express-parser",
+    "correctanswer": 1
+  },
+  {
+    "question": "How do you handle errors globally in Express?",
+    "answer1": "Using error-handling middleware",
+    "answer2": "Catching errors in every route",
+    "answer3": "Using try-catch in each route",
+    "answer4": "By ignoring error codes",
+    "correctanswer": 1
+  },
+  {
+    "question": "What is a recommended way to structure a Node.js project?",
+    "answer1": "Keep all code in one file",
+    "answer2": "Use modularized code with separate files for routes, models, etc.",
+    "answer3": "Combine frontend and backend code",
+    "answer4": "Write all functions globally",
+    "correctanswer": 2
+  },
+  {
+    "question": "What should you avoid when working with sensitive data in Node.js?",
+    "answer1": "Using environment variables",
+    "answer2": "Hardcoding sensitive information",
+    "answer3": "Using third-party libraries",
+    "answer4": "Minifying code",
+    "correctanswer": 2
+  },
+  {
+    "question": "Why is it recommended to use async/await in Node.js applications?",
+    "answer1": "It improves error handling and readability",
+    "answer2": "It makes code synchronous",
+    "answer3": "It blocks the Event Loop",
+    "answer4": "It executes code faster",
+    "correctanswer": 1
+  },
+  {
+    "question": "Which library is commonly used for WebSocket communication in Node.js?",
+    "answer1": "http",
+    "answer2": "ws",
+    "answer3": "socket.io",
+    "answer4": "net",
+    "correctanswer": 3
+  },
+  {
+    "question": "What method initiates a WebSocket connection?",
+    "answer1": "ws.start()",
+    "answer2": "ws.connect()",
+    "answer3": "new WebSocket()",
+    "answer4": "ws.open()",
+    "correctanswer": 3
+  },
+  {
+    "question": "What does WebSocket enable for real-time applications?",
+    "answer1": "File upload",
+    "answer2": "Bi-directional communication",
+    "answer3": "Asynchronous file read",
+    "answer4": "HTTP-based communication",
+    "correctanswer": 2
+  },
+  {
+    "question": "What is the role of next() in Express middleware?",
+    "answer1": "Ends the request-response cycle",
+    "answer2": "Passes control to the next middleware",
+    "answer3": "Caches the response",
+    "answer4": "Initializes the app",
+    "correctanswer": 2
+  },
+  {
+    "question": "In which order does Express execute middleware functions?",
+    "answer1": "Alphabetical order",
+    "answer2": "Reverse order of declaration",
+    "answer3": "Order of declaration",
+    "answer4": "Random order",
+    "correctanswer": 3
+  },
+  {
+    "question": "How can you pipe data from a readable stream to a writable stream in Node.js?",
+    "answer1": "readable.pipe(writable)",
+    "answer2": "writable.pipe(readable)",
+    "answer3": "readable.write(writable)",
+    "answer4": "writable.read(readable)",
+    "correctanswer": 1
+  },
+  {
+    "question": "Which event is emitted when a readable stream ends?",
+    "answer1": "close",
+    "answer2": "end",
+    "answer3": "finish",
+    "answer4": "stop",
+    "correctanswer": 2
+  },
+  {
+    "question": "Which method is used to check if a file exists in Node.js?",
+    "answer1": "fs.existsSync()",
+    "answer2": "fs.fileExists()",
+    "answer3": "fs.check()",
+    "answer4": "fs.accessSync()",
+    "correctanswer": 1
+  },
+  {
+    "question": "Which fs method is used to delete a file asynchronously?",
+    "answer1": "fs.delete()",
+    "answer2": "fs.remove()",
+    "answer3": "fs.unlink()",
+    "answer4": "fs.rm()",
+    "correctanswer": 3
+  },
+  {
+    "question": "What does the then() method of a Promise do?",
+    "answer1": "Chains asynchronous operations",
+    "answer2": "Returns a resolved Promise",
+    "answer3": "Handles synchronous code",
+    "answer4": "Throws an error",
+    "correctanswer": 1
+  },
+  {
+    "question": "How do you handle errors in a Promise chain?",
+    "answer1": "By using a second argument in then()",
+    "answer2": "By using a .catch() method",
+    "answer3": "By ignoring them",
+    "answer4": "By using await",
+    "correctanswer": 2
+  },
+  {
+    "question": "What kind of tasks does the Event Loop prioritize in Node.js?",
+    "answer1": "Network requests",
+    "answer2": "Timers",
+    "answer3": "Microtasks",
+    "answer4": "File I/O",
+    "correctanswer": 3
+  },
+  {
+    "question": "What are the phases of the Event Loop?",
+    "answer1": "Timers, I/O callbacks, close callbacks, poll, check, and immediate",
+    "answer2": "Main phase and secondary phase",
+    "answer3": "Setup and teardown",
+    "answer4": "Input phase and output phase",
+    "correctanswer": 1
+  },
+  {
+    "question": "Which of the following describes Node.js's single-threaded model?",
+    "answer1": "All code executes on a single thread, blocking I/O",
+    "answer2": "Node.js uses multiple threads for I/O and executes code in parallel",
+    "answer3": "Node.js uses a single thread but handles I/O asynchronously",
+    "answer4": "Node.js is only capable of executing one process at a time",
+    "correctanswer": 3
+  },
+  {
+    "question": "Which of the following is true about Node.js?",
+    "answer1": "Node.js is only for web servers",
+    "answer2": "Node.js uses an event-driven, non-blocking I/O model",
+    "answer3": "Node.js only works on Linux systems",
+    "answer4": "Node.js is a framework",
+    "correctanswer": 2
+  },
+  {
+    "question": "Which built-in Node.js module allows you to work with the operating system?",
+    "answer1": "fs",
+    "answer2": "os",
+    "answer3": "http",
+    "answer4": "path",
+    "correctanswer": 2
+  },
+  {
+    "question": "Which module allows you to parse JSON files in Node.js?",
+    "answer1": "json-parser",
+    "answer2": "json",
+    "answer3": "fs",
+    "answer4": "path",
+    "correctanswer": 3
+  },
+  {
+    "question": "How do you access the version of a Node.js module from within your code?",
+    "answer1": "module.version",
+    "answer2": "require('module').version",
+    "answer3": "module.info()",
+    "answer4": "node.getVersion()",
+    "correctanswer": 2
+  },
+  {
+    "question": "How can you use a Node.js module without installing it?",
+    "answer1": "By using require() and specifying a path to the module",
+    "answer2": "By downloading the module manually",
+    "answer3": "By specifying global keyword",
+    "answer4": "By creating a symbolic link",
+    "correctanswer": 1
+  },
+  {
+    "question": "Which command is used to initialize a new Node.js project and generate a package.json file?",
+    "answer1": "npm create",
+    "answer2": "npm init",
+    "answer3": "npm start",
+    "answer4": "npm install",
+    "correctanswer": 2
+  },
+  {
+    "question": "How would you uninstall a package globally using NPM?",
+    "answer1": "npm uninstall <package> -g",
+    "answer2": "npm remove <package> --global",
+    "answer3": "npm delete -g <package>",
+    "answer4": "npm remove --global <package>",
+    "correctanswer": 1
+  },
+  {
+    "question": "Which command can you use to check for outdated npm packages?",
+    "answer1": "npm outdated",
+    "answer2": "npm check",
+    "answer3": "npm list --outdated",
+    "answer4": "npm update --outdated",
+    "correctanswer": 1
+  },
+  {
+    "question": "Which function is used to schedule a one-time delay for executing code in Node.js?",
+    "answer1": "setTimeout()",
+    "answer2": "setInterval()",
+    "answer3": "setDelay()",
+    "answer4": "asyncWait()",
+    "correctanswer": 1
+  },
+  {
+    "question": "What happens if a callback function is not passed to an asynchronous function?",
+    "answer1": "The function will execute synchronously",
+    "answer2": "The callback is ignored and the function continues executing",
+    "answer3": "The function throws an error",
+    "answer4": "The program stops running",
+    "correctanswer": 3
+  },
+  {
+    "question": "Which method in Node.js can handle multiple asynchronous operations concurrently?",
+    "answer1": "async.series()",
+    "answer2": "async.parallel()",
+    "answer3": "Promise.all()",
+    "answer4": "async.all()",
+    "correctanswer": 3
+  },
+  {
+    "question": "How do you define an event emitter in Node.js?",
+    "answer1": "new EventEmitter()",
+    "answer2": "events.createEmitter()",
+    "answer3": "Emitter.create()",
+    "answer4": "new EventListener()",
+    "correctanswer": 1
+  },
+  {
+    "question": "What will happen if an event is emitted but no listeners are attached in Node.js?",
+    "answer1": "Nothing happens",
+    "answer2": "The event will be lost",
+    "answer3": "Node.js throws an error",
+    "answer4": "Node.js will create a default listener",
+    "correctanswer": 1
+  },
+  {
+    "question": "How do you remove a listener from an event emitter?",
+    "answer1": "emitter.removeListener(event, listener)",
+    "answer2": "emitter.off(event, listener)",
+    "answer3": "emitter.remove(event)",
+    "answer4": "emitter.remove(listener)",
+    "correctanswer": 1
+  },
+  {
+    "question": "Which method is used to serve static files in Express.js?",
+    "answer1": "app.use(express.static())",
+    "answer2": "express.serveStatic()",
+    "answer3": "app.serveStatic()",
+    "answer4": "express.static()",
+    "correctanswer": 1
+  },
+  {
+    "question": "Which HTTP method does Express.js use to handle POST requests?",
+    "answer1": "app.get()",
+    "answer2": "app.post()",
+    "answer3": "app.put()",
+    "answer4": "app.delete()",
+    "correctanswer": 2
+  },
+  {
+    "question": "Which of the following is correct for handling errors in Express?",
+    "answer1": "app.error()",
+    "answer2": "app.handleError()",
+    "answer3": "app.use() with a four-argument function",
+    "answer4": "express.use()",
+    "correctanswer": 3
+  },
+  {
+    "question": "What should be the main concern when handling errors in Node.js?",
+    "answer1": "Ignore errors for faster execution",
+    "answer2": "Propagate errors to higher-level handlers for logging and reporting",
+    "answer3": "Log errors without stopping execution",
+    "answer4": "Catch and suppress errors to prevent crashes",
+    "correctanswer": 2
+  },
+  {
+    "question": "Which tool is commonly used for testing Node.js applications?",
+    "answer1": "Jest",
+    "answer2": "Mocha",
+    "answer3": "Jasmine",
+    "answer4": "All of the above",
+    "correctanswer": 4
+  },
+  {
+    "question": "Why is using environment variables for configuration considered a best practice?",
+    "answer1": "It allows easier switching between development, staging, and production environments",
+    "answer2": "It helps to debug the application",
+    "answer3": "It improves code readability",
+    "answer4": "It keeps configuration details in the codebase",
+    "correctanswer": 1
+  },
+  {
+    "question": "How do WebSockets maintain an open connection?",
+    "answer1": "By keeping an HTTP request open",
+    "answer2": "By using long polling",
+    "answer3": "By maintaining a persistent TCP connection",
+    "answer4": "By creating a new connection for each message",
+    "correctanswer": 3
+  },
+  {
+    "question": "Which of the following best describes WebSocket's advantages?",
+    "answer1": "Full-duplex communication with low latency",
+    "answer2": "Single-direction communication only",
+    "answer3": "No support for large messages",
+    "answer4": "Slower than HTTP",
+    "correctanswer": 1
+  },
+  {
+    "question": "Which WebSocket event is fired when the connection is closed?",
+    "answer1": "close",
+    "answer2": "end",
+    "answer3": "terminate",
+    "answer4": "disconnect",
+    "correctanswer": 1
+  },
+  {
+    "question": "What is the purpose of body parsers in Express.js middleware?",
+    "answer1": "To parse incoming request bodies in various formats",
+    "answer2": "To handle errors in the request body",
+    "answer3": "To compress incoming requests",
+    "answer4": "To convert request bodies to JSON",
+    "correctanswer": 1
+  },
+  {
+    "question": "Which method in Express allows for chaining multiple middleware?",
+    "answer1": "app.all()",
+    "answer2": "app.use()",
+    "answer3": "app.route()",
+    "answer4": "app.middleware()",
+    "correctanswer": 2
+  },
+  {
+    "question": "Which HTTP method is used to mount middleware that applies to a specific route?",
+    "answer1": "app.use()",
+    "answer2": "app.get()",
+    "answer3": "app.post()",
+    "answer4": "app.all()",
+    "correctanswer": 2
+  },
+  {
+    "question": "What is the difference between a readable and a writable stream in Node.js?",
+    "answer1": "Readable streams emit data that can be consumed, while writable streams accept data to write",
+    "answer2": "Readable streams store data, while writable streams send data",
+    "answer3": "Readable streams are for network operations, writable streams are for file I/O",
+    "answer4": "Writable streams process data asynchronously, readable streams process it synchronously",
+    "correctanswer": 1
+  },
+  {
+    "question": "Which stream method is used to pipe the output of one stream into another?",
+    "answer1": "pipe()",
+    "answer2": "link()",
+    "answer3": "merge()",
+    "answer4": "flow()",
+    "correctanswer": 1
+  },
+  {
+    "question": "Which method allows asynchronous reading of a file in Node.js?",
+    "answer1": "fs.readFileSync()",
+    "answer2": "fs.readFile()",
+    "answer3": "fs.read()",
+    "answer4": "fs.asyncRead()",
+    "correctanswer": 2
+  },
+  {
+    "question": "Which of the following will create a new directory asynchronously?",
+    "answer1": "fs.mkdirSync()",
+    "answer2": "fs.createDirectory()",
+    "answer3": "fs.mkdir()",
+    "answer4": "fs.create()",
+    "correctanswer": 3
+  },
+  {
+    "question": "Which of the following does the async keyword indicate in front of a function?",
+    "answer1": "The function will return a Promise",
+    "answer2": "The function executes synchronously",
+    "answer3": "The function will handle asynchronous events",
+    "answer4": "The function is error-prone",
+    "correctanswer": 1
+  },
+  {
+    "question": "What does Promise.all() return when one of the promises fails?",
+    "answer1": "Promise.reject()",
+    "answer2": "Promise.all() ignores the failure",
+    "answer3": "Promise.all() waits for all promises",
+    "answer4": "Promise.all() rejects with the error of the first failed promise",
+    "correctanswer": 4
+  },
+  {
+    "question": "At which phase does the Event Loop process I/O events?",
+    "answer1": "Poll phase",
+    "answer2": "Timer phase",
+    "answer3": "Check phase",
+    "answer4": "Immediate phase",
+    "correctanswer": 1
+  },
+  {
+    "question": "What is the main role of the Event Loop in Node.js?",
+    "answer1": "Handle HTTP requests",
+    "answer2": "Manage event listeners and asynchronous operations",
+    "answer3": "Execute synchronous code only",
+    "answer4": "Process database queries",
+    "correctanswer": 2
+  },
+  {
+    "question": "Which phase comes after the poll phase in the Node.js Event Loop?",
+    "answer1": "Check phase",
+    "answer2": "Immediate phase",
+    "answer3": "Timer phase",
+    "answer4": "Idle phase",
+    "correctanswer": 1
+  },
+  {
+    "question": "Which of the following can be considered an advantage of using Node.js for server-side development?",
+    "answer1": "High CPU usage",
+    "answer2": "Non-blocking I/O model",
+    "answer3": "Multi-threaded execution",
+    "answer4": "Supports synchronous file I/O",
+    "correctanswer": 2
+  },
+  {
+    "question": "What does the process.exit() method do in a Node.js application?",
+    "answer1": "Exits the process without cleaning up resources",
+    "answer2": "Stops the event loop and terminates the Node.js process",
+    "answer3": "Exits the current function",
+    "answer4": "Pauses the application execution",
+    "correctanswer": 2
+  },
+  {
+    "question": "Which of the following is used to handle child processes in Node.js?",
+    "answer1": "Os",
+    "answer2": "http",
+    "answer3": "child_process",
+    "answer4": "fs",
+    "correctanswer": 3
+  },
+  {
+    "question": "What does the module.exports object in Node.js do?",
+    "answer1": "Exports data from one module to another",
+    "answer2": "Sets the default global object",
+    "answer3": "Imports data into the current module",
+    "answer4": "Imports libraries from other modules",
+    "correctanswer": 1
+  },
+  {
+    "question": "Which of the following is NOT a feature of Node.js modules?",
+    "answer1": "Encapsulation of code",
+    "answer2": "Code reusability",
+    "answer3": "Blocking I/O",
+    "answer4": "Support for synchronous code execution",
+    "correctanswer": 3
+  },
+  {
+    "question": "Which of the following will import a file located in a different directory?",
+    "answer1": "require('./myModule')",
+    "answer2": "require('../myModule')",
+    "answer3": "require('/myModule')",
+    "answer4": "import myModule",
+    "correctanswer": 2
+  },
+  {
+    "question": "Which command installs all dependencies listed in package.json?",
+    "answer1": "npm install",
+    "answer2": "npm update",
+    "answer3": "npm upgrade",
+    "answer4": "npm start",
+    "correctanswer": 1
+  },
+  {
+    "question": "Which file is created when you initialize a Node.js project using npm init?",
+    "answer1": "index.js",
+    "answer2": "node_modules.json",
+    "answer3": "package.json",
+    "answer4": "dependencies.json",
+    "correctanswer": 3
+  },
+  {
+    "question": "How can you uninstall a package without removing its dependencies?",
+    "answer1": "npm remove --no-deps <package>",
+    "answer2": "npm uninstall <package>",
+    "answer3": "npm delete <package>",
+    "answer4": "npm clear <package>",
+    "correctanswer": 2
+  },
+  {
+    "question": "Which of the following is a correct way to use async/await in Node.js?",
+    "answer1": "Using await inside non-async functions",
+    "answer2": "Using async in place of promises",
+    "answer3": "Wrapping the function call in a promise manually",
+    "answer4": "Using await only with synchronous functions",
+    "correctanswer": 2
+  },
+  {
+    "question": "How do you execute multiple promises in parallel using Promise.all()?",
+    "answer1": "Promise.all([promise1, promise2])",
+    "answer2": "Promise.all(promise1, promise2)",
+    "answer3": "Promise.all(promise1 && promise2)",
+    "answer4": "Promise.parallel([promise1, promise2])",
+    "correctanswer": 1
+  },
+  {
+    "question": "Which is the best way to handle errors in async functions?",
+    "answer1": "Using .catch() after calling the async function",
+    "answer2": "Wrapping async calls inside try/catch blocks",
+    "answer3": "Letting the function crash if an error occurs",
+    "answer4": "Returning null or undefined for errors",
+    "correctanswer": 2
+  },
+  {
+    "question": "In Node.js, what type of pattern is commonly used for managing events?",
+    "answer1": "Publisher-Subscriber pattern",
+    "answer2": "Observer pattern",
+    "answer3": "Event Queue pattern",
+    "answer4": "Request-Response pattern",
+    "correctanswer": 1
+  },
+  {
+    "question": "What is emitted when an error occurs in Node.js Event Emitters?",
+    "answer1": "error event",
+    "answer2": "exception event",
+    "answer3": "errorOccurred event",
+    "answer4": "failure event",
+    "correctanswer": 1
+  },
+  {
+    "question": "Which method allows you to remove all listeners for a specific event in Node.js?",
+    "answer1": "emitter.removeAllListeners()",
+    "answer2": "emitter.removeListeners()",
+    "answer3": "emitter.clearListeners()",
+    "answer4": "emitter.deleteListeners()",
+    "correctanswer": 1
+  },
+  {
+    "question": "What does app.listen() do in an Express.js application?",
+    "answer1": "Starts a web server that listens for incoming HTTP requests",
+    "answer2": "It listens for errors in the application",
+    "answer3": "Starts a database connection",
+    "answer4": "Mounts middleware on routes",
+    "correctanswer": 1
+  },
+  {
+    "question": "How would you define a route for handling GET requests at the /home path in Express?",
+    "answer1": "app.get('/home', function(req, res) {...})",
+    "answer2": "app.route('/home').get(function(req, res) {...})",
+    "answer3": "app.router('/home').get(function(req, res) {...})",
+    "answer4": "app.router('/home').post(function(req, res) {...})",
+    "correctanswer": 1
+  },
+  {
+    "question": "Which middleware is used to handle cookie parsing in Express?",
+    "answer1": "cookie-parser",
+    "answer2": "cookie-handler",
+    "answer3": "cookie-manager",
+    "answer4": "express-cookie",
+    "correctanswer": 1
+  },
+  {
+    "question": "What is the purpose of using a .env file in Node.js projects?",
+    "answer1": "To manage environment variables",
+    "answer2": "To define constants",
+    "answer3": "To store file paths",
+    "answer4": "To store sensitive code",
+    "correctanswer": 1
+  },
+  {
+    "question": "Which of the following is a best practice when dealing with untrusted data in Node.js applications?",
+    "answer1": "Always sanitize input to prevent security vulnerabilities",
+    "answer2": "Ignore potential security threats from untrusted data",
+    "answer3": "Store sensitive data like passwords in plain text",
+    "answer4": "Validate data only on the client side",
+    "correctanswer": 1
+  },
+  {
+    "question": "Which logging library is often used in Node.js applications for structured logging?",
+    "answer1": "Winston",
+    "answer2": "log4js",
+    "answer3": "morgan",
+    "answer4": "All of the above",
+    "correctanswer": 4
+  },
+  {
+    "question": "Which event is triggered when a WebSocket connection is established?",
+    "answer1": "Open",
+    "answer2": "Connect",
+    "answer3": "Start",
+    "answer4": "Ready",
+    "correctanswer": 1
+  },
+  {
+    "question": "How do you send data from a WebSocket server to the client?",
+    "answer1": "ws.send(data)",
+    "answer2": "ws.emit(data)",
+    "answer3": "ws.push(data)",
+    "answer4": "ws.broadcast(data)",
+    "correctanswer": 1
+  },
+  {
+    "question": "What is the purpose of WebSocket's ping and pong messages?",
+    "answer1": "To maintain the connection alive and measure latency",
+    "answer2": "To send binary data",
+    "answer3": "To exchange authentication tokens",
+    "answer4": "To compress the message payload",
+    "correctanswer": 1
+  },
+  {
+    "question": "What does the next() function do in middleware for handling requests in Express.js?",
+    "answer1": "It proceeds to the next middleware or route handler",
+    "answer2": "It closes the connection to the client",
+    "answer3": "It terminates the request-response cycle",
+    "answer4": "It suspends the request",
+    "correctanswer": 1
+  },
+  {
+    "question": "Which type of middleware is executed before route handling middleware in Express?",
+    "answer1": "Application-level middleware",
+    "answer2": "Route-level middleware",
+    "answer3": "Error-handling middleware",
+    "answer4": "Built-in middleware",
+    "correctanswer": 1
+  },
+  {
+    "question": "How can you limit the number of requests made by the client in a certain period?",
+    "answer1": "By using rate-limiting middleware",
+    "answer2": "By applying custom logic to each route",
+    "answer3": "By using app.use() for validation",
+    "answer4": "By setting cookies in the response",
+    "correctanswer": 1
+  },
+  {
+    "question": "Which method is used to read data from a readable stream?",
+    "answer1": "stream.read()",
+    "answer2": "stream.pipe()",
+    "answer3": "stream.output()",
+    "answer4": "stream.get()",
+    "correctanswer": 1
+  },
+  {
+    "question": "What is the advantage of using streams over loading a file entirely into memory?",
+    "answer1": "Streams allow reading and writing data as it is being processed, reducing memory usage",
+    "answer2": "Streams store data in memory and thus are faster",
+    "answer3": "Streams process files more slowly",
+    "answer4": "Streams require less CPU usage",
+    "correctanswer": 1
+  },
+  {
+    "question": "How can you pause a readable stream?",
+    "answer1": "stream.pause()",
+    "answer2": "stream.stop()",
+    "answer3": "stream.close()",
+    "answer4": "stream.suspend()",
+    "correctanswer": 1
+  },
+  {
+    "question": "Which of the following is the primary reason Node.js is preferred for I/O-heavy applications?",
+    "answer1": "It uses a synchronous execution model",
+    "answer2": "It uses non-blocking, event-driven architecture",
+    "answer3": "It is easy to implement multi-threading",
+    "answer4": "It runs on multiple processors concurrently",
+    "correctanswer": 2
+  },
+  {
+    "question": "Which of the following is true about Node.js?",
+    "answer1": "Node.js is used for frontend development only",
+    "answer2": "Node.js is a multi-threaded framework",
+    "answer3": "Node.js is a runtime environment that runs JavaScript code outside of the browser",
+    "answer4": "Node.js is used only for building web pages",
+    "correctanswer": 3
+  },
+  {
+    "question": "Which built-in Node.js module helps you work with paths and file system operations?",
+    "answer1": "http",
+    "answer2": "path",
+    "answer3": "events",
+    "answer4": "fs",
+    "correctanswer": 2
+  },
+  {
+    "question": "How would you require a JSON file in Node.js?",
+    "answer1": "require('./data.json')",
+    "answer2": "import('./data.json')",
+    "answer3": "require('./data.json') (but only if it contains JavaScript code)",
+    "answer4": "require('./data')",
+    "correctanswer": 1
+  },
+  {
+    "question": "Which command can you use to create a custom module in Node.js?",
+    "answer1": "node module.create",
+    "answer2": "require('./myModule')",
+    "answer3": "module.exports",
+    "answer4": "Custom modules are not allowed in Node.js",
+    "correctanswer": 3
+  },
+  {
+    "question": "What is the purpose of exports in Node.js?",
+    "answer1": "It is used to define global variables",
+    "answer2": "It is used to import external libraries",
+    "answer3": "It is used to export functions or objects from a module",
+    "answer4": "It initializes Node.js built-in modules",
+    "correctanswer": 3
+  },
+  {
+    "question": "Which command installs a package globally?",
+    "answer1": "npm install <package>",
+    "answer2": "npm install <package> -g",
+    "answer3": "npm add <package>",
+    "answer4": "npm global-install <package>",
+    "correctanswer": 2
+  },
+  {
+    "question": "How can you search for a package using NPM?",
+    "answer1": "npm search <package>",
+    "answer2": "npm find <package>",
+    "answer3": "npm search --global <package>",
+    "answer4": "npm query <package>",
+    "correctanswer": 1
+  },
+  {
+    "question": "What is package-lock.json used for?",
+    "answer1": "To lock the current version of Node.js",
+    "answer2": "To lock the versions of dependencies for consistency",
+    "answer3": "To specify the package manager version",
+    "answer4": "To store the list of globally installed packages",
+    "correctanswer": 2
+  },
+  {
+    "question": "What happens when you call an asynchronous function without a callback in Node.js?",
+    "answer1": "The function execution is blocked until completion",
+    "answer2": "An error is thrown",
+    "answer3": "The callback is passed automatically",
+    "answer4": "The function executes synchronously",
+    "correctanswer": 2
+  },
+  {
+    "question": "What is the main difference between callbacks and promises in Node.js?",
+    "answer1": "Promises are synchronous, while callbacks are asynchronous",
+    "answer2": "Promises simplify chaining of asynchronous operations, while callbacks can lead to callback hell",
+    "answer3": "Callbacks allow more fine-grained control over I/O operations",
+    "answer4": "Promises are only useful for I/O operations, callbacks are for CPU-intensive tasks",
+    "correctanswer": 2
+  },
+  {
+    "question": "Which of the following would you use to handle multiple asynchronous tasks and wait for them all to complete?",
+    "answer1": "Promise.any()",
+    "answer2": "Promise.all()",
+    "answer3": "async.parallel()",
+    "answer4": "Promise.resolve()",
+    "correctanswer": 2
+  },
+  {
+    "question": "What is the default maximum number of listeners for each event in Node.js's EventEmitter?",
+    "answer1": "10",
+    "answer2": "100",
+    "answer3": "50",
+    "answer4": "1",
+    "correctanswer": 1
+  },
+  {
+    "question": "Which of the following is true about events in Node.js?",
+    "answer1": "Events are used only for managing HTTP requests",
+    "answer2": "Events provide an easy way to handle asynchronous operations without blocking",
+    "answer3": "Node.js does not support event-driven programming",
+    "answer4": "Events are only used for file system operations",
+    "correctanswer": 2
+  },
+  {
+    "question": "How do you emit a custom event in Node.js?",
+    "answer1": "emitter.emit('eventName')",
+    "answer2": "emitter.raise('eventName')",
+    "answer3": "emitter.dispatch('eventName')",
+    "answer4": "emitter.trigger('eventName')",
+    "correctanswer": 1
+  },
+  {
+    "question": "What does the express.Router() method do?",
+    "answer1": "Creates a new middleware function",
+    "answer2": "Creates a route handler for a specific path",
+    "answer3": "Creates a new router object for routing HTTP requests",
+    "answer4": "Sets a custom error handler",
+    "correctanswer": 3
+  },
+  {
+    "question": "Which of the following is true about using middleware in Express.js?",
+    "answer1": "Middleware runs before the route handler",
+    "answer2": "Middleware runs after the route handler",
+    "answer3": "Middleware can only handle POST requests",
+    "answer4": "Middleware can only be used with static files",
+    "correctanswer": 1
+  },
+  {
+    "question": "Which HTTP method should you use to handle form submissions in Express?",
+    "answer1": "app.get()",
+    "answer2": "app.delete()",
+    "answer3": "app.post()",
+    "answer4": "app.head()",
+    "correctanswer": 3
+  },
+  {
+    "question": "Which of the following should you consider when writing scalable applications in Node.js?",
+    "answer1": "Using blocking I/O calls",
+    "answer2": "Avoiding error handling",
+    "answer3": "Leveraging asynchronous code",
+    "answer4": "Writing all logic in a single function",
+    "correctanswer": 3
+  },
+  {
+    "question": "Which of the following is a good practice when deploying a Node.js application in production?",
+    "answer1": "Enabling full error logs in production",
+    "answer2": "Running Node.js as a non-root user",
+    "answer3": "Disabling clustering",
+    "answer4": "Ignoring security updates",
+    "correctanswer": 2
+  },
+  {
+    "question": "What is one of the most common ways to monitor a Node.js application in production?",
+    "answer1": "Using console.log() for every request",
+    "answer2": "Using application performance monitoring (APM) tools like New Relic or Datadog",
+    "answer3": "Only running the application locally",
+    "answer4": "Disabling error reporting in production",
+    "correctanswer": 2
+  },
+  {
+    "question": "What type of protocol does WebSocket use for communication?",
+    "answer1": "HTTP",
+    "answer2": "HTTPS",
+    "answer3": "TCP",
+    "answer4": "UDP",
+    "correctanswer": 3
+  },
+  {
+    "question": "What happens if you try to send a message over a closed WebSocket connection?",
+    "answer1": "The message is queued",
+    "answer2": "The message is lost",
+    "answer3": "An error is thrown",
+    "answer4": "The message is automatically retransmitted",
+    "correctanswer": 3
+  },
+  {
+    "question": "Which of the following is a key feature of WebSocket?",
+    "answer1": "One-way communication from client to server",
+    "answer2": "Persistent, full-duplex communication between the client and server",
+    "answer3": "Only supports binary data",
+    "answer4": "Uses request-response model like HTTP",
+    "correctanswer": 2
+  },
+  {
+    "question": "How can you create a custom error-handling middleware in Express.js?",
+    "answer1": "By using app.use() with four arguments",
+    "answer2": "By using app.error()",
+    "answer3": "By using app.custom()",
+    "answer4": "By defining an error event listener",
+    "correctanswer": 1
+  },
+  {
+    "question": "Which middleware in Express helps in parsing incoming JSON data?",
+    "answer1": "express.json()",
+    "answer2": "express.bodyParser()",
+    "answer3": "express.parseJSON()",
+    "answer4": "express.body()",
+    "correctanswer": 1
+  },
+  {
+    "question": "How would you prevent a specific route in Express from being accessed by unauthorized users?",
+    "answer1": "Using middleware for authentication and authorization checks",
+    "answer2": "Redirecting users to the homepage",
+    "answer3": "Disabling routing for that path",
+    "answer4": "Allowing all routes to handle authentication",
+    "correctanswer": 1
+  },
+  {
+    "question": "Which of the following methods can be used to pipe a readable stream to a writable stream?",
+    "answer1": "stream.pipe(destination)",
+    "answer2": "stream.writeTo(destination)",
+    "answer3": "stream.transfer(destination)",
+    "answer4": "stream.send(destination)",
+    "correctanswer": 1
+  },
+  {
+    "question": "What type of stream is used for reading data from a file in Node.js?",
+    "answer1": "Readable stream",
+    "answer2": "Writable stream",
+    "answer3": "Duplex stream",
+    "answer4": "Transform stream",
+    "correctanswer": 1
+  },
+  {
+    "question": "What method would you use to end a writable stream after writing data?",
+    "answer1": "stream.close()",
+    "answer2": "stream.end()",
+    "answer3": "stream.stop()",
+    "answer4": "stream.closeWrite()",
+    "correctanswer": 2
+  },
+  {
+    "question": "Which Node.js function is used to get the current working directory?",
+    "answer1": "process.cwd()",
+    "answer2": "os.cwd()",
+    "answer3": "path.cwd()",
+    "answer4": "process.getcwd()",
+    "correctanswer": 1
+  },
+  {
+    "question": "What is the primary role of Node.js in the MEAN stack?",
+    "answer1": "It provides the database interface",
+    "answer2": "It is used for backend server-side logic",
+    "answer3": "It is used for client-side rendering",
+    "answer4": "It handles the routing of HTTP requests",
+    "correctanswer": 2
+  },
+  {
+    "question": "Which of the following is NOT a common use case for Node.js?",
+    "answer1": "Real-time web applications",
+    "answer2": "APIs for single-page applications",
+    "answer3": "Heavy computational tasks",
+    "answer4": "Microservices",
+    "correctanswer": 3
+  },
+  {
+    "question": "How would you load a local module in Node.js?",
+    "answer1": "require('moduleName')",
+    "answer2": "require('./moduleName')",
+    "answer3": "import('./moduleName')",
+    "answer4": "module.import('./moduleName')",
+    "correctanswer": 2
+  },
+  {
+    "question": "Which of the following is the correct way to export a single function from a module in Node.js?",
+    "answer1": "module.exports = function() { ... };",
+    "answer2": "exports = function() { ... };",
+    "answer3": "module.export = function() { ... };",
+    "answer4": "export function() { ... };",
+    "correctanswer": 1
+  },
+  {
+    "question": "Which Node.js module can be used to interact with the operating system and retrieve system information?",
+    "answer1": "Path",
+    "answer2": "Os",
+    "answer3": "http",
+    "answer4": "fs",
+    "correctanswer": 2
+  },
+  {
+    "question": "How would you view the details of a specific package installed via NPM?",
+    "answer1": "npm show ",
+    "answer2": "npm info ",
+    "answer3": "npm details ",
+    "correctanswer": 4
+  },
+  {
+    "question": "Which of the following NPM commands creates a package-lock.json file?",
+    "answer1": "npm install",
+    "answer2": "npm init",
+    "answer3": "npm update",
+    "answer4": "npm config set",
+    "correctanswer": 1
+  },
+  {
+    "question": "What command is used to install a package as a development dependency in NPM?",
+    "answer1": "npm install --dev ",
+    "answer2": "npm install  --save-dev",
+    "answer3": "npm dev-install ",
+    "answer4": "npm install  -d",
+    "correctanswer": 2
+  },
+  {
+    "question": "Which function is used to handle the result of an asynchronous operation in a promise chain?",
+    "answer1": ".catch()",
+    "answer2": ".then()",
+    "answer3": ".finally()",
+    "answer4": ".complete()",
+    "correctanswer": 2
+  },
+  {
+    "question": "What does the async keyword do in an asynchronous function?",
+    "answer1": "It allows the function to be executed synchronously",
+    "answer2": "It signals the function to return a promise",
+    "answer3": "It automatically catches all errors in the function",
+    "answer4": "It delays the execution of the function",
+    "correctanswer": 2
+  },
+  {
+    "question": "What happens if you throw an error inside an async function?",
+    "answer1": "It is caught automatically by the catch() method",
+    "answer2": "It is thrown immediately",
+    "answer3": "It creates a promise rejection",
+    "answer4": "It logs the error to the console",
+    "correctanswer": 3
+  },
+  {
+    "question": "Which of the following is true about event-driven architecture in Node.js?",
+    "answer1": "It relies on synchronous execution of events",
+    "answer2": "It uses callbacks and event emitters to handle multiple operations concurrently",
+    "answer3": "It is used only for web servers",
+    "answer4": "It does not support asynchronous programming",
+    "correctanswer": 2
+  },
+  {
+    "question": "How can you modify the maximum number of listeners for an event in Node.js?",
+    "answer1": "emitter.setMaxListeners(20)",
+    "answer2": "emitter.maxListeners(20)",
+    "answer3": "emitter.changeMaxListeners(20)",
+    "answer4": "emitter.setListeners(20)",
+    "correctanswer": 1
+  },
+  {
+    "question": "Which method would you use to listen for custom events in Node.js?",
+    "answer1": "emitter.on('eventName', callback)",
+    "answer2": "emitter.addListener('eventName', callback)",
+    "answer3": "Both a and b",
+    "answer4": "emitter.listen('eventName', callback)",
+    "correctanswer": 3
+  },
+  {
+    "question": "Which middleware function is commonly used to log HTTP requests in Express.js?",
+    "answer1": "Morgan",
+    "answer2": "body-parser",
+    "answer3": "cookie-parser",
+    "answer4": "express-log",
+    "correctanswer": 1
+  },
+  {
+    "question": "How would you add a route that listens for PUT requests at the /update path in Express?",
+    "answer1": "app.put('/update', (req, res) => {...})",
+    "answer2": "app.patch('/update', (req, res) => {...})",
+    "answer3": "app.put('/update', (req) => {...})",
+    "answer4": "app.post('/update', (req, res) => {...})",
+    "correctanswer": 1
+  },
+  {
+    "question": "Which of the following is the correct way to handle static files in Express?",
+    "answer1": "app.use(express.static('public'))",
+    "answer2": "app.static('public')",
+    "answer3": "app.useStatic('public')",
+    "answer4": "app.staticFiles('public')",
+    "correctanswer": 1
+  },
+  {
+    "question": "Which of the following is a best practice for handling errors in Node.js applications?",
+    "answer1": "Throwing errors without logging them",
+    "answer2": "Using try/catch for synchronous code and .catch() for promises",
+    "answer3": "Letting errors propagate to the top level",
+    "answer4": "Ignoring errors to prevent performance issues",
+    "correctanswer": 2
+  },
+  {
+    "question": "Which of the following is the best approach for managing a large Node.js application?",
+    "answer1": "Writing all the code in a single file",
+    "answer2": "Using modules to break down the application into smaller components",
+    "answer3": "Only using a single routing file for simplicity",
+    "answer4": "Avoiding the use of external libraries",
+    "correctanswer": 2
+  },
+  {
+    "question": "What should you do to handle uncaught exceptions in a Node.js application?",
+    "answer1": "Let the process exit and restart it manually",
+    "answer2": "Use process.on('uncaughtException', callback) to handle them",
+    "answer3": "Ignore the error, Node.js will automatically handle it",
+    "answer4": "Exit the process and do not restart it",
+    "correctanswer": 2
+  },
+  {
+    "question": "Which WebSocket method would you use to send a message from the server to the client?",
+    "answer1": "ws.send()",
+    "answer2": "ws.emit()",
+    "answer3": "ws.sendMessage()",
+    "answer4": "ws.push()",
+    "correctanswer": 1
+  },
+  {
+    "question": "Which of the following is the correct way to close a WebSocket connection from the server?",
+    "answer1": "ws.close()",
+    "answer2": "ws.disconnect()",
+    "answer3": "ws.terminate()",
+    "answer4": "ws.end()",
+    "correctanswer": 1
+  },
+  {
+    "question": "How do you handle WebSocket message events in the client?",
+    "answer1": "socket.on('message', (data) => {...})",
+    "answer2": "socket.receive('message', (data) => {...})",
+    "answer3": "socket.message('message', (data) => {...})",
+    "answer4": "socket.listen('message', (data) => {...})",
+    "correctanswer": 1
+  },
+  {
+    "question": "How would you add a middleware that runs only for specific HTTP methods in Express?",
+    "answer1": "app.use(method, middleware)",
+    "answer2": "app.use('/path', method, middleware)",
+    "answer3": "app[method]('/path', middleware)",
+    "answer4": "app.method('/path', middleware)",
+    "correctanswer": 3
+  },
+  {
+    "question": "Which of the following is used to serve static files in Express?",
+    "answer1": "app.use(express.static(path))",
+    "answer2": "app.serve(path)",
+    "answer3": "app.staticFiles(path)",
+    "answer4": "app.serveStatic(path)",
+    "correctanswer": 1
+  },
+  {
+    "question": "How would you add a middleware for handling JSON payloads in Express.js?",
+    "answer1": "app.use(express.json())",
+    "answer2": "app.json(express())",
+    "answer3": "app.bodyParser()",
+    "answer4": "app.use(express.payload())",
+    "correctanswer": 1
+  },
+  {
+    "question": "Which of the following streams can be used to transform data before passing it to the next stream?",
+    "answer1": "Readable stream",
+    "answer2": "Writable stream",
+    "answer3": "Transform stream",
+    "answer4": "Duplex stream",
+    "correctanswer": 3
+  },
+  {
+    "question": "Which method is used to pause a writable stream?",
+    "answer1": "stream.pause()",
+    "answer2": "stream.stop()",
+    "answer3": "stream.end()",
+    "answer4": "stream.suspend()",
+    "correctanswer": 1
+  },
+  {
+    "question": "What is the purpose of the stream.finished() method in Node.js?",
+    "answer1": "To check if the stream is currently active",
+    "answer2": "To check if the stream has completed processing",
+    "answer3": "To stop all ongoing operations",
+    "answer4": "To close the stream immediately",
+    "correctanswer": 2
+  },
+  {
+    "question": "What is the output of console.log(process.argv) in a Node.js program?",
+    "answer1": "Array of command-line arguments passed to the program",
+    "answer2": "Path of the current script",
+    "answer3": "The Node.js version",
+    "answer4": "List of dependencies in package.json",
+    "correctanswer": 1
+  },
+  {
+    "question": "Which of the following would be the best way to ensure your Node.js application handles a large number of concurrent users?",
+    "answer1": "Use synchronous I/O operations",
+    "answer2": "Use asynchronous I/O operations with callbacks or promises",
+    "answer3": "Run Node.js in a single-threaded environment",
+    "answer4": "Ignore error handling to improve performance",
+    "correctanswer": 2
+  },
+  {
+    "question": "Which command would you use to check the version of Node.js installed on your system?",
+    "answer1": "node --version",
+    "answer2": "node -v",
+    "answer3": "node version",
+    "answer4": "Both a and b",
+    "correctanswer": 4
+  },
+  {
+    "question": "What does require() do in Node.js?",
+    "answer1": "Loads a file and evaluates it, returning the exported module",
+    "answer2": "Loads a library into the global namespace",
+    "answer3": "Executes the entire Node.js program",
+    "answer4": "Imports a module from another server",
+    "correctanswer": 1
+  },
+  {
+    "question": "How do you export an object from a Node.js module?",
+    "answer1": "module.export = object",
+    "answer2": "exports = object",
+    "answer3": "module.exports = object",
+    "answer4": "object.export()",
+    "correctanswer": 3
+  },
+  {
+    "question": "Which of the following will correctly import the fs module in Node.js?",
+    "answer1": "import fs from 'fs'",
+    "answer2": "require('fs')",
+    "answer3": "import * as fs from 'fs'",
+    "answer4": "import module from 'fs'",
+    "correctanswer": 2
+  },
+  {
+    "question": "What does the command npm uninstall  do?",
+    "answer1": "Removes the package and its dependencies from the project",
+    "answer2": "Removes the package from the global package registry",
+    "answer3": "Removes the package only from the node_modules directory",
+    "answer4": "Uninstalls the global NPM package",
+    "correctanswer": 1
+  },
+  {
+    "question": "What does the npm outdated command do?",
+    "answer1": "Lists all outdated packages that need updating",
+    "answer2": "Displays the status of the current project",
+    "answer3": "Lists all installed global packages",
+    "answer4": "Updates packages to the latest version",
+    "correctanswer": 1
+  },
+  {
+    "question": "What is the purpose of the npm update command?",
+    "answer1": "It updates the project's dependencies to the latest versions specified in package.json",
+    "answer2": "It updates Node.js itself",
+    "answer3": "It upgrades NPM to the latest version",
+    "answer4": "It only updates the dependencies in package-lock.json",
+    "correctanswer": 1
+  },
+  {
+    "question": "Which of the following is a method used to handle multiple promises concurrently and return a single promise?",
+    "answer1": "Promise.all()",
+    "answer2": "Promise.race()",
+    "answer3": "Promise.finally()",
+    "answer4": "Promise.any()",
+    "correctanswer": 1
+  },
+  {
+    "question": "What does await do in JavaScript?",
+    "answer1": "It pauses the execution of the async function until the promise is resolved or rejected",
+    "answer2": "It starts a promise-based function",
+    "answer3": "It handles promise rejections",
+    "answer4": "It waits for a setTimeout to finish",
+    "correctanswer": 1
+  },
+  {
+    "question": "Which function is used to handle promise rejections in Node.js?",
+    "answer1": ".catch()",
+    "answer2": ".then()",
+    "answer3": ".finally()",
+    "answer4": ".reject()",
+    "correctanswer": 1
+  },
+  {
+    "question": "What is an event loop in Node.js?",
+    "answer1": "A mechanism that schedules and processes events asynchronously in a non-blocking way",
+    "answer2": "A loop that listens to events in real-time",
+    "answer3": "A function that processes events sequentially",
+    "answer4": "A framework for handling multiple clients",
+    "correctanswer": 1
+  },
+  {
+    "question": "How can you remove all listeners for a specific event from an EventEmitter instance?",
+    "answer1": "emitter.removeListener('eventName')",
+    "answer2": "emitter.removeAllListeners('eventName')",
+    "answer3": "emitter.off('eventName')",
+    "answer4": "emitter.clearListeners('eventName')",
+    "correctanswer": 2
+  },
+  {
+    "question": "What is the purpose of the once() method in Node.js EventEmitter?",
+    "answer1": "To listen for events that should be triggered only once",
+    "answer2": "To fire an event only once during program execution",
+    "answer3": "To reset all events to be triggered once",
+    "answer4": "To delay an event execution until a condition is met",
+    "correctanswer": 1
+  },
+  {
+    "question": "Which method is used to send an HTTP response with a specific HTTP status code in Express?",
+    "answer1": "res.statusCode(404)",
+    "answer2": "res.sendStatus(404)",
+    "answer3": "res.send(404)",
+    "answer4": "res.status(404).send('Not Found')",
+    "correctanswer": 4
+  },
+  {
+    "question": "Which of the following is used to parse incoming requests with JSON payloads in Express?",
+    "answer1": "app.use(express.json())",
+    "answer2": "app.use(bodyParser.json())",
+    "answer3": "app.use(express.bodyParser())",
+    "answer4": "app.bodyParser()",
+    "correctanswer": 1
+  },
+  {
+    "question": "How can you chain route handlers in Express.js?",
+    "answer1": "Using app.route()",
+    "answer2": "Using app.all()",
+    "answer3": "Using app.handle()",
+    "answer4": "Using app.middleware()",
+    "correctanswer": 1
+  },
+  {
+    "question": "Which of the following is a common practice for optimizing performance in Node.js?",
+    "answer1": "Avoid using asynchronous code",
+    "answer2": "Use global variables extensively to speed up access",
+    "answer3": "Avoid using console.log() in production",
+    "answer4": "Ignore error handling to avoid overhead",
+    "correctanswer": 3
+  },
+  {
+    "question": "When should you use environment variables in a Node.js application?",
+    "answer1": "To store sensitive configuration data like API keys and database credentials",
+    "answer2": "To store application logic",
+    "answer3": "To store client-side data for use in templates",
+    "answer4": "Only to store temporary data",
+    "correctanswer": 1
+  },
+  {
+    "question": "What is the recommended way to handle long-running operations in a Node.js application?",
+    "answer1": "Perform them synchronously to ensure they are completed before continuing",
+    "answer2": "Use child processes or worker threads for CPU-intensive operations",
+    "answer3": "Store them in the database and process them later",
+    "answer4": "Always run them inside an event listener",
+    "correctanswer": 2
+  },
+  {
+    "question": "Which event is triggered when the WebSocket connection is closed?",
+    "answer1": "ws.disconnect",
+    "answer2": "ws.close",
+    "answer3": "ws.end",
+    "answer4": "ws.onclose",
+    "correctanswer": 2
+  },
+  {
+    "question": "How can you broadcast a message to all connected WebSocket clients from the server?",
+    "answer1": "Send the message to each client individually using ws.send()",
+    "answer2": "Use ws.broadcast()",
+    "answer3": "Use ws.sendToAll()",
+    "answer4": "Node.js does not support broadcasting natively",
+    "correctanswer": 1
+  },
+  {
+    "question": "Which protocol is WebSocket built upon?",
+    "answer1": "HTTP",
+    "answer2": "HTTPS",
+    "answer3": "TCP",
+    "answer4": "UDP",
+    "correctanswer": 3
+  },
+  {
+    "question": "Which of the following is the purpose of express.static() middleware?",
+    "answer1": "To handle static file serving",
+    "answer2": "To parse incoming JSON payloads",
+    "answer3": "To manage authentication",
+    "answer4": "To log HTTP requests",
+    "correctanswer": 1
+  },
+  {
+    "question": "How would you use middleware to handle errors in Express.js?",
+    "answer1": "app.use(errorHandler)",
+    "answer2": "app.all('/error', errorHandler)",
+    "answer3": "app.error(errorHandler)",
+    "answer4": "app.use('/error', errorHandler)",
+    "correctanswer": 1
+  },
+  {
+    "question": "What is the purpose of the next parameter in Express middleware?",
+    "answer1": "It is used to pass control to the next middleware function in the stack",
+    "answer2": "It is used to delay the execution of middleware",
+    "answer3": "It stores a reference to the next middleware function",
+    "answer4": "It signals the end of a middleware chain",
+    "correctanswer": 1
+  },
+  {
+    "question": "Which of the following is used to run a Node.js application?",
+    "answer1": "node ",
+    "answer2": "node run ",
+    "answer3": "node execute ",
+    "answer4": "node start ",
+    "correctanswer": 1
+  },
+  {
+    "question": "What is the default port number for a Node.js server?",
+    "answer1": "3000",
+    "answer2": "8080",
+    "answer3": "80",
+    "answer4": "5000",
+    "correctanswer": 1
+  },
+  {
+    "question": "Which method is used to listen for incoming requests on a specific port in Node.js?",
+    "answer1": "server.listen(port)",
+    "answer2": "server.start(port)",
+    "answer3": "server.open(port)",
+    "answer4": "server.bind(port)",
+    "correctanswer": 1
+  },
+  {
+    "question": "What happens if a module is required multiple times in Node.js?",
+    "answer1": "It is loaded and executed again each time",
+    "answer2": "It is cached after the first require and does not execute again",
+    "answer3": "It throws an error",
+    "answer4": "It is treated as a new module each time",
+    "correctanswer": 2
+  },
+  {
+    "question": "Which of the following is true about CommonJS modules in Node.js?",
+    "answer1": "They use the import statement for importing modules",
+    "answer2": "They use require() for importing modules",
+    "answer3": "They only support synchronous loading",
+    "answer4": "They do not support module exports",
+    "correctanswer": 2
+  },
+  {
+    "question": "How would you export multiple functions or variables from a Node.js module?",
+    "answer1": "module.exports = [function1, function2]",
+    "answer2": "module.exports = { function1, function2 }",
+    "answer3": "exports = { function1, function2 }",
+    "answer4": "module.exportMultiple = { function1, function2 }",
+    "correctanswer": 2
+  },
+  {
+    "question": "How would you install a package globally using npm?",
+    "answer1": "npm global install ",
+    "answer2": "npm install --global ",
+    "answer3": "npm add -g ",
+    "answer4": "npm global ",
+    "correctanswer": 2
+  },
+  {
+    "question": "What does the npm audit command do?",
+    "answer1": "Scans your dependencies for security vulnerabilities",
+    "answer2": "Displays the outdated packages in your project",
+    "answer3": "Installs missing dependencies",
+    "answer4": "Provides an overview of the project's structure",
+    "correctanswer": 1
+  },
+  {
+    "question": "What command is used to create a package.json file for a Node.js project?",
+    "answer1": "npm create",
+    "answer2": "npm init",
+    "answer3": "npm setup",
+    "answer4": "npm package",
+    "correctanswer": 2
+  },
+  {
+    "question": "Which of the following is true about setTimeout() in Node.js?",
+    "answer1": "It immediately executes the function synchronously",
+    "answer2": "It executes the function asynchronously after a specified delay",
+    "answer3": "It executes the function only once per event loop",
+    "answer4": "It blocks the event loop until the delay has passed",
+    "correctanswer": 2
+  },
+  {
+    "question": "What does Promise.all() return when all promises are resolved successfully?",
+    "answer1": "An array of the resolved values",
+    "answer2": "A single resolved value",
+    "answer3": "A resolved promise containing the first resolved value",
+    "answer4": "A rejected promise",
+    "correctanswer": 1
+  },
+  {
+    "question": "What does the finally() method do in a promise chain?",
+    "answer1": "It catches any errors in the promise chain",
+    "answer2": "It executes after the promise is settled (resolved or rejected)",
+    "answer3": "It prevents further promise chaining",
+    "answer4": "It cancels the promise execution",
+    "correctanswer": 2
+  },
+  {
+    "question": "Which of the following is the best description of an event-driven architecture in Node.js?",
+    "answer1": "A system where events (such as button clicks) trigger specific actions",
+    "answer2": "A system where everything runs in a sequential, blocking order",
+    "answer3": "A system where each action is triggered by time-based intervals",
+    "answer4": "A system where events are polled in a loop for each iteration",
+    "correctanswer": 1
+  },
+  {
+    "question": "How can you emit a custom event in Node.js using an EventEmitter?",
+    "answer1": "emitter.emit('eventName', data)",
+    "answer2": "emitter.trigger('eventName', data)",
+    "answer3": "emitter.raise('eventName', data)",
+    "answer4": "emitter.dispatch('eventName', data)",
+    "correctanswer": 1
+  },
+  {
+    "question": "What is the purpose of the process.on('uncaughtException', callback) method?",
+    "answer1": "It listens for and handles uncaught exceptions in the Node.js application",
+    "answer2": "It processes all exceptions and prevents them from terminating the application",
+    "answer3": "It generates uncaught exceptions deliberately for testing",
+    "answer4": "It logs uncaught exceptions to the console",
+    "correctanswer": 1
+  },
+  {
+    "question": "Which of the following is used to handle 404 errors in Express.js?",
+    "answer1": "app.use((req, res, next) => { res.status(404).send('Not Found'); });",
+    "answer2": "app.error(404, (req, res) => { ... });",
+    "answer3": "app.useError(404, handler)",
+    "answer4": "app.handle(404, (req, res) => { ... });",
+    "correctanswer": 1
+  },
+  {
+    "question": "What is the purpose of the app.all() method in Express?",
+    "answer1": "It is used to define a handler for all HTTP methods (GET, POST, etc.) for a given path",
+    "answer2": "It is used to serve all types of files from a specific directory",
+    "answer3": "It defines all routes globally for the app",
+    "answer4": "It is used to listen for incoming requests on all ports",
+    "correctanswer": 1
+  },
+  {
+    "question": "How would you use Express to parse a URL-encoded body (as submitted by a form)?",
+    "answer1": "app.use(express.urlencoded({ extended: true }))",
+    "answer2": "app.use(bodyParser.urlencoded({ extended: true }))",
+    "answer3": "app.use(express.bodyParser({ extended: true }))",
+    "answer4": "app.urlencoded()",
+    "correctanswer": 1
+  },
+  {
+    "question": "Which of the following best practices should be followed when deploying a Node.js application in production?",
+    "answer1": "Using synchronous file reads to improve performance",
+    "answer2": "Enabling console.log() for debugging",
+    "answer3": "Using environment variables to store sensitive information",
+    "answer4": "Ignoring unhandled promise rejections",
+    "correctanswer": 3
+  },
+  {
+    "question": "What is the recommended method for error handling in an asynchronous function in Node.js?",
+    "answer1": "Ignoring the errors for better performance",
+    "answer2": "Using a try/catch block inside an async function",
+    "answer3": "Writing custom error handling functions for every operation",
+    "answer4": "Using the error event in Node.js",
+    "correctanswer": 2
+  },
+  {
+    "question": "What is the advantage of using worker threads in Node.js?",
+    "answer1": "They allow for concurrent I/O operations in a single thread",
+    "answer2": "They allow Node.js to execute CPU-intensive operations without blocking the event loop",
+    "answer3": "They speed up event-driven asynchronous programming",
+    "answer4": "They reduce memory usage by executing in the background",
+    "correctanswer": 2
+  },
+  {
+    "question": "Which of the following would you use to send a message to all clients connected to the WebSocket server?",
+    "answer1": "ws.broadcast('message')",
+    "answer2": "ws.sendToAll('message')",
+    "answer3": "You would need to manually iterate over each connected WebSocket instance and send the message",
+    "answer4": "ws.emit('message')",
+    "correctanswer": 3
+  },
+  {
+    "question": "Which event is fired when a message is received from the client in a WebSocket connection?",
+    "answer1": "Message",
+    "answer2": "Data",
+    "answer3": "Receive",
+    "answer4": "onmessage",
+    "correctanswer": 1
+  },
+  {
+    "question": "How do you handle a WebSocket error in the client?",
+    "answer1": "socket.on('error', callback)",
+    "answer2": "socket.error(callback)",
+    "answer3": "socket.onerror(callback)",
+    "answer4": "socket.catch(callback)",
+    "correctanswer": 1
+  },
+  {
+    "question": "Which of the following middleware functions is used to parse cookies in an Express.js app?",
+    "answer1": "cookieParser()",
+    "answer2": "express.cookie()",
+    "answer3": "cookieParserMiddleware()",
+    "answer4": "app.cookies()",
+    "correctanswer": 1
+  },
+  {
+    "question": "What is the default status code returned by Express when no status code is specified?",
+    "answer1": "200 (OK)",
+    "answer2": "404 (Not Found)",
+    "answer3": "500 (Internal Server Error)",
+    "answer4": "301 (Moved Permanently)",
+    "correctanswer": 1
+  },
+  {
+    "question": "Which of the following is used to prevent Cross-Origin Resource Sharing (CORS) issues in Express.js?",
+    "answer1": "express-cors",
+    "answer2": "cors middleware",
+    "answer3": "app.enableCORS()",
+    "answer4": "app.allowCrossOrigin()",
+    "correctanswer": 2
+  },
+  {
+    "question": "Which of the following is a core module of Node.js?",
+    "answer1": "Fs",
+    "answer2": "Path",
+    "answer3": "http",
+    "answer4": "All of the above",
+    "correctanswer": 4
+  },
+  {
+    "question": "Which command is used to run a Node.js file directly from the terminal?",
+    "answer1": "node run <filename>",
+    "answer2": "node start <filename>",
+    "answer3": "node <filename>",
+    "answer4": "node execute <filename>",
+    "correctanswer": 3
+  },
+  {
+    "question": "In Node.js, which method can you use to read a file asynchronously?",
+    "answer1": "fs.readFileSync()",
+    "answer2": "fs.readFile()",
+    "answer3": "fs.read()",
+    "answer4": "fs.loadFile()",
+    "correctanswer": 2
+  },
+  {
+    "question": "How would you require a built-in Node.js module in your project?",
+    "answer1": "import fs from 'fs'",
+    "answer2": "require('fs')",
+    "answer3": "import * as fs from 'fs'",
+    "answer4": "load('fs')",
+    "correctanswer": 2
+  },
+  {
+    "question": "Which method would you use to dynamically load a module in Node.js?",
+    "answer1": "require()",
+    "answer2": "import()",
+    "answer3": "load()",
+    "answer4": "module.import()",
+    "correctanswer": 2
+  },
+  {
+    "question": "What does module.exports do in a Node.js module?",
+    "answer1": "Exports the module's public API",
+    "answer2": "Import the module's public API",
+    "answer3": "Imports functions from other modules",
+    "answer4": "Defines the entire module inside a file",
+    "correctanswer": 1
+  },
+  {
+    "question": "What does the command npm run <script> do?",
+    "answer1": "Executes a script defined in the package.json file",
+    "answer2": "Installs a new package",
+    "answer3": "Compiles JavaScript code",
+    "answer4": "Runs the app in production mode",
+    "correctanswer": 1
+  },
+  {
+    "question": "What does the npm install command do when run in an existing project?",
+    "answer1": "Installs all dependencies listed in the package.json file",
+    "answer2": "Updates the package.json file",
+    "answer3": "Removes the node_modules directory",
+    "answer4": "Installs a new dependency into the project",
+    "correctanswer": 1
+  },
+  {
+    "question": "What is the purpose of the npm start command in a Node.js project?",
+    "answer1": "It starts the server defined in the scripts section of package.json",
+    "answer2": "It installs all project dependencies",
+    "answer3": "It initializes a new Node.js application",
+    "answer4": "It starts the app in debug mode",
+    "correctanswer": 1
+  },
+  {
+    "question": "What does the setImmediate() function do in Node.js?",
+    "answer1": "Executes a callback function after the current event loop completes",
+    "answer2": "Executes a callback function after a specified delay",
+    "answer3": "Executes a callback function asynchronously after a specified interval",
+    "answer4": "Executes a callback function synchronously before the next event loop",
+    "correctanswer": 1
+  },
+  {
+    "question": "What is the result of calling Promise.reject('error')?",
+    "answer1": "It creates a resolved promise with the value 'error'",
+    "answer2": "It immediately rejects the promise with the error message 'error'",
+    "answer3": "It throws an error in the synchronous code",
+    "answer4": "It creates a pending promise",
+    "correctanswer": 2
+  },
+  {
+    "question": "What is a key difference between setTimeout() and setImmediate()?",
+    "answer1": "setTimeout() executes a callback after the specified delay, while setImmediate() runs the callback on the next iteration of the event loop",
+    "answer2": "setTimeout() always runs synchronously, while setImmediate() is asynchronous",
+    "answer3": "setTimeout() is used to handle errors, while setImmediate() handles regular tasks",
+    "answer4": "setTimeout() executes in the next event loop, while setImmediate() waits until the script is finished",
+    "correctanswer": 1
+  },
+  {
+    "question": "Which of the following is true about the EventEmitter class in Node.js?",
+    "answer1": "It is used to handle HTTP requests in Node.js",
+    "answer2": "It is used to manage file system operations",
+    "answer3": "It allows an object to emit named events that listeners can respond to",
+    "answer4": "It only supports one listener per event",
+    "correctanswer": 3
+  },
+  {
+    "question": "Which of the following is the correct syntax to add an event listener to an EventEmitter instance?",
+    "answer1": "emitter.addListener('event', callback)",
+    "answer2": "emitter.on('event', callback)",
+    "answer3": "emitter.subscribe('event', callback)",
+    "answer4": "emitter.event(callback)",
+    "correctanswer": 2
+  },
+  {
+    "question": "What does the process.nextTick() function do in Node.js?",
+    "answer1": "Executes a callback after the current operation completes, before the event loop continues",
+    "answer2": "Executes a callback after the current event loop iteration",
+    "answer3": "Schedules a task to be performed immediately",
+    "answer4": "Immediately terminates the process and logs errors",
+    "correctanswer": 1
+  },
+  {
+    "question": "Which of the following is the correct way to define a GET route in Express?",
+    "answer1": "app.route('/path').get((req, res) => { ... })",
+    "answer2": "app.get('/path', (req, res) => { ... })",
+    "answer3": "app.define('/path').get((req, res) => { ... })",
+    "answer4": "app.post('/path').get((req, res) => { ... })",
+    "correctanswer": 2
+  },
+  {
+    "question": "Which middleware function would you use to parse incoming form data in Express?",
+    "answer1": "express.bodyParser()",
+    "answer2": "express.json()",
+    "answer3": "express.urlencoded()",
+    "answer4": "bodyParser()",
+    "correctanswer": 3
+  },
+  {
+    "question": "What is the primary purpose of the next() function in Express middleware?",
+    "answer1": "To terminate the request-response cycle",
+    "answer2": "To send a response to the client",
+    "answer3": "To pass control to the next middleware function",
+    "answer4": "To execute the current middleware again",
+    "correctanswer": 3
+  },
+  {
+    "question": "Which of the following is a best practice for handling errors in Node.js applications?",
+    "answer1": "Always log errors to the console and allow the application to continue running",
+    "answer2": "Return detailed error messages to the client to help debug",
+    "answer3": "Use try/catch blocks and reject unhandled promise rejections",
+    "answer4": "Let errors go unhandled to improve performance",
+    "correctanswer": 3
+  },
+  {
+    "question": "What is the best way to scale a Node.js application?",
+    "answer1": "Run the application on multiple threads in a single process",
+    "answer2": "Use multiple instances of Node.js behind a load balancer",
+    "answer3": "Use a single thread for handling multiple requests",
+    "answer4": "Increase the number of synchronous I/O operations",
+    "correctanswer": 2
+  },
+  {
+    "question": "What is the purpose of using dotenv in a Node.js application?",
+    "answer1": "It helps to parse cookies from incoming HTTP requests",
+    "answer2": "It allows you to manage environment variables easily in a .env file",
+    "answer3": "It is used to run Node.js applications in production mode",
+    "answer4": "It is a tool for managing API requests and responses",
+    "correctanswer": 2
+  },
+  {
+    "question": "Which of the following is true about WebSocket communication in Node.js?",
+    "answer1": "WebSockets require HTTP/2 for communication",
+    "answer2": "WebSocket is a one-way communication protocol",
+    "answer3": "WebSockets provide full-duplex communication between client and server",
+    "answer4": "WebSockets can only be used with static websites",
+    "correctanswer": 3
+  },
+  {
+    "question": "How would you close a WebSocket connection from the server side?",
+    "answer1": "ws.close()",
+    "answer2": "ws.disconnect()",
+    "answer3": "ws.terminate()",
+    "answer4": "ws.end()",
+    "correctanswer": 1
+  },
+  {
+    "question": "How can you handle errors when using WebSocket in a Node.js client?",
+    "answer1": "socket.onerror = function(event) { ... }",
+    "answer2": "socket.onError(function(event) { ... })",
+    "answer3": "socket.catchError(function(event) { ... })",
+    "answer4": "socket.handleError(function(event) { ... })",
+    "correctanswer": 1
+  },
+  {
+    "question": "Which of the following middleware functions would you use to serve static files in an Express.js application?",
+    "answer1": "app.static()",
+    "answer2": "express.static()",
+    "answer3": "app.serveStatic()",
+    "answer4": "serve.static()",
+    "correctanswer": 2
+  },
+  {
+    "question": "What is the primary function of middleware in an Express.js application?",
+    "answer1": "To execute HTTP requests synchronously",
+    "answer2": "To handle routing for each HTTP method",
+    "answer3": "To process requests, modify responses, and pass control to the next middleware",
+    "answer4": "To handle error handling and responses",
+    "correctanswer": 3
+  },
+  {
+    "question": "Which middleware function is used to parse incoming JSON payloads in Express?",
+    "answer1": "express.json()",
+    "answer2": "express.bodyParser()",
+    "answer3": "express.parseJson()",
+    "answer4": "jsonParser()",
+    "correctanswer": 1
+  },
+  {
+    "question": "What does process.env in Node.js represent?",
+    "answer1": "The current file directory",
+    "answer2": "An object containing environment variables",
+    "answer3": "The version of Node.js",
+    "answer4": "A list of installed modules",
+    "correctanswer": 2
+  },
+  {
+    "question": "How does Node.js handle multiple requests?",
+    "answer1": "Using multithreading",
+    "answer2": "Using a single-threaded, non-blocking I/O model",
+    "answer3": "By creating multiple instances of the app",
+    "answer4": "Using synchronous functions only",
+    "correctanswer": 2
+  },
+  {
+    "question": "What is the purpose of exports in Node.js?",
+    "answer1": "To import modules",
+    "answer2": "To export objects and functions from a module",
+    "answer3": "To read external files",
+    "answer4": "To handle events",
+    "correctanswer": 2
+  },
+  {
+    "question": "How do you make only specific functions or variables accessible from a Node.js module?",
+    "answer1": "Use exports.specificFunction = function() { ... }",
+    "answer2": "Use export default specificFunction",
+    "answer3": "Use require.specificFunction",
+    "answer4": "Place the function at the top of the file",
+    "correctanswer": 1
+  },
+  {
+    "question": "Which of the following statements is false regarding module.exports and exports?",
+    "answer1": "Both module.exports and exports are references to the same object initially",
+    "answer2": "You can reassign exports directly to export an object",
+    "answer3": "exports is a shorthand for module.exports",
+    "answer4": "Using module.exports allows exporting a single function or object",
+    "correctanswer": 2
+  },
+  {
+    "question": "What file is used by npm to determine the dependencies of a project?",
+    "answer1": "package.json",
+    "answer2": "npm-config.json",
+    "answer3": "dependencies.json",
+    "answer4": "module.json",
+    "correctanswer": 1
+  },
+  {
+    "question": "What command updates all packages to their latest versions in an npm project?",
+    "answer1": "npm update",
+    "answer2": "npm upgrade",
+    "answer3": "npm latest",
+    "answer4": "npm all-update",
+    "correctanswer": 1
+  },
+  {
+    "question": "What does the ^ symbol in package.json version numbers represent?",
+    "answer1": "Updates to any version above the current",
+    "answer2": "Updates to the latest major version",
+    "answer3": "Updates to compatible minor versions",
+    "answer4": "Updates to only the latest patch version",
+    "correctanswer": 3
+  },
+  {
+    "question": "Which of the following functions does not return a promise?",
+    "answer1": "setTimeout()",
+    "answer2": "fetch()",
+    "answer3": "fs.promises.readFile()",
+    "answer4": "Promise.resolve()",
+    "correctanswer": 1
+  },
+  {
+    "question": "How do you convert a callback-based function into a promise-based function in Node.js?",
+    "answer1": "Using async/await",
+    "answer2": "Using Promise.wrap()",
+    "answer3": "Using Promise.promisify()",
+    "answer4": "Using Promise.create()",
+    "correctanswer": 3
+  },
+  {
+    "question": "What will Promise.race([p1, p2, p3]) return if p2 resolves first?",
+    "answer1": "It returns the value from p2",
+    "answer2": "It returns the values from all resolved promises",
+    "answer3": "It waits for all promises to settle",
+    "answer4": "It waits for the longest promise to resolve",
+    "correctanswer": 1
+  },
+  {
+    "question": "Which method is used to remove a specific listener from an event in EventEmitter?",
+    "answer1": "emitter.removeListener(event, listener)",
+    "answer2": "emitter.off(event, listener)",
+    "answer3": "emitter.removeEvent(event)",
+    "answer4": "emitter(event, listener)",
+    "correctanswer": 2
+  },
+  {
+    "question": "What event is emitted when an error occurs in Node.js?",
+    "answer1": "Error",
+    "answer2": "Exception",
+    "answer3": "Crash",
+    "answer4": "uncaughtException",
+    "correctanswer": 4
+  },
+  {
+    "question": "How can you prevent an application from crashing when an unhandled error occurs in an EventEmitter?",
+    "answer1": "Listen to the error event on the emitter",
+    "answer2": "Use try/catch in synchronous functions",
+    "answer3": "Wrap the EventEmitter in a promise",
+    "answer4": "Ignore all errors in the application",
+    "correctanswer": 1
+  },
+  {
+    "question": "How would you configure Express to serve static files from a directory?",
+    "answer1": "app.use(express.static('public'))",
+    "answer2": "app.static('public')",
+    "answer3": "app.serve('public')",
+    "answer4": "app.serveStatic('public')",
+    "correctanswer": 1
+  },
+  {
+    "question": "What is the role of the app.listen() function in an Express application?",
+    "answer1": "It defines the applicationâ€™s routes",
+    "answer2": "It binds the application to a network port for incoming connections",
+    "answer3": "It starts the application in debug mode",
+    "answer4": "It logs server requests",
+    "correctanswer": 2
+  },
+  {
+    "question": "Which of the following methods defines middleware for handling JSON payloads in Express?",
+    "answer1": "app.use(express.json())",
+    "answer2": "app.use(express.bodyParser())",
+    "answer3": "app.json()",
+    "answer4": "app.bodyParser()",
+    "correctanswer": 1
+  },
+  {
+    "question": "What is the recommended way to secure environment variables in a Node.js project?",
+    "answer1": "Storing them directly in the code",
+    "answer2": "Using .env files and keeping them out of version control",
+    "answer3": "Hard-coding them in package.json",
+    "answer4": "Sharing them openly for all developers",
+    "correctanswer": 2
+  },
+  {
+    "question": "What is a common way to improve application performance in Node.js?",
+    "answer1": "Using synchronous file operations",
+    "answer2": "Using asynchronous non-blocking methods",
+    "answer3": "Blocking the event loop for heavy tasks",
+    "answer4": "Using multiple single-threaded processes",
+    "correctanswer": 2
+  },
+  {
+    "question": "Which tool is commonly used for logging in production-grade Node.js applications?",
+    "answer1": "console.log()",
+    "answer2": "fs.appendFile()",
+    "answer3": "Winston",
+    "answer4": "logger.debug()",
+    "correctanswer": 3
+  },
+  {
+    "question": "Which protocol upgrade does WebSocket use to establish a connection over HTTP?",
+    "answer1": "HTTP/2",
+    "answer2": "WebSocket handshake",
+    "answer3": "TCP/IP upgrade",
+    "answer4": "HTTP upgrade",
+    "correctanswer": 4
+  },
+  {
+    "question": "Which event listener would you use to detect when a WebSocket connection is closed?",
+    "answer1": "socket.on('disconnect')",
+    "answer2": "socket.on('close')",
+    "answer3": "socket.on('end')",
+    "answer4": "socket.on('exit')",
+    "correctanswer": 2
+  },
+  {
+    "question": "What is the purpose of ws.send() in a WebSocket server?",
+    "answer1": "To send a message to a specific client",
+    "answer2": "To send a message to all connected clients",
+    "answer3": "To broadcast to all clients and servers",
+    "answer4": "To close the connection",
+    "correctanswer": 1
+  },
+  {
+    "question": "In Express, which method is typically used to handle errors across the application?",
+    "answer1": "app.error()",
+    "answer2": "app.use((err, req, res, next) => { ... })",
+    "answer3": "app.catch((err) => { ... })",
+    "answer4": "app.handleError((err) => { ... })",
+    "correctanswer": 2
+  },
+  {
+    "question": "What is the order of middleware execution in Express.js?",
+    "answer1": "Alphabetical order",
+    "answer2": "In the order they are defined in the code",
+    "answer3": "Based on middleware priority level",
+    "answer4": "Random order",
+    "correctanswer": 2
+  },
+  {
+    "question": "Which type of middleware can modify the request object in Express.js before it reaches the route handler?",
+    "answer1": "Error-handling middleware",
+    "answer2": "Application-level middleware",
+    "answer3": "Request-modifying middleware",
+    "answer4": "Route handler middleware",
+    "correctanswer": 2
+  },
+  {
+    "question": "Which of the following is an example of a readable stream in Node.js?",
+    "answer1": "fs.createReadStream()",
+    "answer2": "fs.writeFile()",
+    "answer3": "fs.appendFile()",
+    "answer4": "http.get()",
+    "correctanswer": 1
+  },
+  {
+    "question": "Which event is emitted by writable streams when they are ready to accept more data?",
+    "answer1": "Data",
+    "answer2": "Drain",
+    "answer3": "Ready",
+    "answer4": "open",
+    "correctanswer": 2
+  },
+  {
+    "question": "What is the purpose of a for...of loop in JavaScript?",
+    "answer1": "Iterates over each property of an object",
+    "answer2": "Iterates over each character in a string",
+    "answer3": "Iterates over iterable objects like arrays, strings, and sets",
+    "answer4": "Iterates in reverse order",
+    "correctanswer": 3
+  },
+  {
+    "question": "What is the output of the following code? javascript const arr = [1, 2, 3]; for (let i = 0; i < arr.length; i++) { if (i === 1) break; console.log(arr[i]); }",
+    "answer1": "1, 2, 3",
+    "answer2": "2",
+    "answer3": "1",
+    "answer4": "1, 2",
+    "correctanswer": 3
+  },
+  {
+    "question": "Which loop would you use when the number of iterations is unknown but depends on a condition?",
+    "answer1": "for loop",
+    "answer2": "while loop",
+    "answer3": "do...while loop",
+    "answer4": "none of the above",
+    "correctanswer": 2
+  },
+  {
+    "question": "What is the main difference between for...in and for...of loops?",
+    "answer1": "for...in loops through array elements, and for...of loops through object properties",
+    "answer2": "for...in loops through object properties, and for...of loops through iterable elements",
+    "answer3": "Both loops function identically",
+    "answer4": "for...in is used only for arrays",
+    "correctanswer": 2
+  },
+  {
+    "question": "How many times will the following loop execute? javascript let count = 0; while (count < 5) { count++; }",
+    "answer1": "0",
+    "answer2": "4",
+    "answer3": "5",
+    "answer4": "Infinite",
+    "correctanswer": 3
+  },
+  {
+    "question": "Which of the following is an ordered, indexed data structure in JavaScript?",
+    "answer1": "Object",
+    "answer2": "Array",
+    "answer3": "Set",
+    "answer4": "Map",
+    "correctanswer": 2
+  },
+  {
+    "question": "Which of these statements about Set in JavaScript is true?",
+    "answer1": "Set only stores unique values",
+    "answer2": "Set stores key-value pairs",
+    "answer3": "Set maintains insertion order of items",
+    "answer4": "Both a and c",
+    "correctanswer": 4
+  },
+  {
+    "question": "How can you access the value for a specific key in a Map?",
+    "answer1": "map[key]",
+    "answer2": "map.get(key)",
+    "answer3": "map[key].value",
+    "answer4": "map.getValue(key)",
+    "correctanswer": 2
+  },
+  {
+    "question": "What is the result of Array.from(new Set([1, 2, 2, 3, 4]))?",
+    "answer1": "[1, 2, 2, 3, 4]",
+    "answer2": "[1, 2, 3, 4]",
+    "answer3": "[2, 3, 4]",
+    "answer4": "[1, 3, 4]",
+    "correctanswer": 2
+  },
+  {
+    "question": "Which of these data structures does not allow duplicate values by default?",
+    "answer1": "Array",
+    "answer2": "Object",
+    "answer3": "Set",
+    "answer4": "Map",
+    "correctanswer": 3
+  },
+  {
+    "question": "What is a callback function in JavaScript?",
+    "answer1": "A function that is called automatically at the end of every function",
+    "answer2": "A function passed as an argument to another function and executed later",
+    "answer3": "A function that executes immediately upon definition",
+    "answer4": "A synchronous function that runs after another function completes",
+    "correctanswer": 2
+  },
+  {
+    "question": "Which of the following correctly demonstrates a callback function? javascript function greet(name, callback) { console.log('Hello ' + name); callback(); } greet('Alice', function() { console.log('Callback executed'); });",
+    "answer1": "Only logs \"Hello Alice\"",
+    "answer2": "Only logs \"Callback executed\"",
+    "answer3": "Logs \"Hello Alice\" and then \"Callback executed\"",
+    "answer4": "Throws an error",
+    "correctanswer": 3
+  },
+  {
+    "question": "What is the main advantage of using callbacks in JavaScript?",
+    "answer1": "They allow synchronous code to execute faster",
+    "answer2": "They allow for more readable code",
+    "answer3": "They enable asynchronous execution, allowing code to continue running while waiting for another process to complete",
+    "answer4": "They prevent errors from occurring in code",
+    "correctanswer": 3
+  },
+  {
+    "question": "What is an example of a built-in JavaScript method that uses a callback function?",
+    "answer1": "forEach()",
+    "answer2": "map()",
+    "answer3": "setTimeout()",
+    "answer4": "All of the above",
+    "correctanswer": 4
+  },
+  {
+    "question": "What is a common issue when using callbacks in JavaScript, especially when nesting multiple callbacks?",
+    "answer1": "Callback rejection",
+    "answer2": "Callback rejection",
+    "answer3": "Callback hell",
+    "answer4": "Callback cycle",
+    "correctanswer": 3
+  },
+  {
+    "question": "Which of the following is a correct syntax for defining a function in JavaScript?",
+    "answer1": "function myFunc { ... }",
+    "answer2": "let myFunc() = { ... }",
+    "answer3": "function myFunc() { ... }",
+    "answer4": "let myFunc[] = { ... }",
+    "correctanswer": 3
+  },
+  {
+    "question": "What is the output of the following code? javascript function add(a, b) { return a + b; } console.log(add(2, 3));",
+    "answer1": "Undefined",
+    "answer2": "23",
+    "answer3": "5",
+    "answer4": "NaN",
+    "correctanswer": 3
+  },
+  {
+    "question": "What keyword is used to define an arrow function in JavaScript?",
+    "answer1": "=>",
+    "answer2": "->",
+    "answer3": ":",
+    "answer4": "None of the above",
+    "correctanswer": 1
+  },
+  {
+    "question": "Which of these functions immediately invokes itself upon definition?",
+    "answer1": "Anonymous function",
+    "answer2": "Named function",
+    "answer3": "IIFE (Immediately Invoked Function Expression)",
+    "answer4": "Callback function",
+    "correctanswer": 3
+  },
+  {
+    "question": "What is the default return value of a function in JavaScript if no return statement is specified?",
+    "answer1": "Null",
+    "answer2": "Undefined",
+    "answer3": "NaN",
+    "answer4": "false",
+    "correctanswer": 2
+  },
+  {
+    "question": "Which of the following is a valid way to create an object in JavaScript?",
+    "answer1": "let obj = { }",
+    "answer2": "let obj = Object.create()",
+    "answer3": "let obj = new Object({ })",
+    "correctanswer": 1
+  },
+  {
+    "question": "What is the result of the following code? javascript const person = { name: 'Alice', greet: function() { return 'Hello ' + this.name; } }; console.log(person.greet());",
+    "answer1": "Hello Alice",
+    "answer2": "Hello undefined",
+    "answer3": "Undefined",
+    "answer4": "Throws an error",
+    "correctanswer": 1
+  },
+  {
+    "question": "Which method is used to get an array of keys in an object?",
+    "answer1": "Object.values()",
+    "answer2": "Object.keys()",
+    "answer3": "Object.entries()",
+    "answer4": "Object.list()",
+    "correctanswer": 2
+  },
+  {
+    "question": "How can you prevent modifications to an object in JavaScript?",
+    "answer1": "Object.lock()",
+    "answer2": "Object.preventExtensions()",
+    "answer3": "Object.seal()",
+    "answer4": "Object.freeze()",
+    "correctanswer": 4
+  },
+  {
+    "question": "What will Object.assign() do when used on an object?",
+    "answer1": "It merges properties from one or more source objects into a target object",
+    "answer2": "It prevents extensions on the object",
+    "answer3": "It deep clones the object",
+    "answer4": "It deletes all properties in the object",
+    "correctanswer": 1
+  },
+  {
+    "question": "What is the purpose of semicolons in JavaScript?",
+    "answer1": "To separate HTML from JavaScript",
+    "answer2": "To end statements (optional in most cases)",
+    "answer3": "To enclose a function",
+    "answer4": "To indicate variable declarations",
+    "correctanswer": 2
+  },
+  {
+    "question": "What are reserved keywords in JavaScript?",
+    "answer1": "Words that can be used as variables",
+    "answer2": "Words that have a predefined meaning and cannot be used as identifiers",
+    "answer3": "Words only used in comments",
+    "answer4": "Any English word",
+    "correctanswer": 2
+  },
+  {
+    "question": "Which of the following is a correct variable name in JavaScript?",
+    "answer1": "var 1name",
+    "answer2": "var name@",
+    "answer3": "var $name",
+    "answer4": "var name%",
+    "correctanswer": 3
+  },
+  {
+    "question": "What is an expression in JavaScript?",
+    "answer1": "value-producing piece of code",
+    "answer2": "Only a variable declaration",
+    "answer3": "Only a function call",
+    "answer4": "A line of code that does not produce a value",
+    "correctanswer": 1
+  },
+  {
+    "question": "What is the output of console.log(2 + '3');?",
+    "answer1": "5",
+    "answer2": "23",
+    "answer3": "NaN",
+    "answer4": "undefined",
+    "correctanswer": 2
+  },
+  {
+    "question": "What does the expression 5 == '5' return in JavaScript?",
+    "answer1": "true",
+    "answer2": "false",
+    "answer3": "undefined",
+    "answer4": "Throws an error",
+    "correctanswer": 1
+  },
+  {
+    "question": "Which of the following is not a primitive data type in JavaScript?",
+    "answer1": "String",
+    "answer2": "Boolean",
+    "answer3": "Object",
+    "answer4": "Undefined",
+    "correctanswer": 3
+  },
+  {
+    "question": "What will typeof NaN return in JavaScript?",
+    "answer1": "'undefined'",
+    "answer2": "'number'",
+    "answer3": "'NaN'",
+    "answer4": "'null'",
+    "correctanswer": 2
+  },
+  {
+    "question": "What does null represent in JavaScript?",
+    "answer1": "The absence of any value or object",
+    "answer2": "A number",
+    "answer3": "A data type",
+    "answer4": "Undefined",
+    "correctanswer": 1
+  },
+  {
+    "question": "Which keyword is used to define a class in JavaScript?",
+    "answer1": "define",
+    "answer2": "class",
+    "answer3": "constructor",
+    "answer4": "object",
+    "correctanswer": 2
+  },
+  {
+    "question": "What is a constructor in a JavaScript class?",
+    "answer1": "A method for initializing class properties",
+    "answer2": "A method for deleting properties",
+    "answer3": "A method only used to define functions",
+    "answer4": "A variable inside a class",
+    "correctanswer": 1
+  },
+  {
+    "question": "How would you create an instance of a class Person in JavaScript?",
+    "answer1": "Person.create()",
+    "answer2": "let p = new Person()",
+    "answer3": "let p = Person()",
+    "answer4": "let p = Person.new()",
+    "correctanswer": 2
+  },
+  {
+    "question": "Which keyword declares a block-scoped variable in JavaScript?",
+    "answer1": "var",
+    "answer2": "let",
+    "answer3": "const",
+    "answer4": "Both b and c",
+    "correctanswer": 4
+  },
+  {
+    "question": "What will happen if you try to reassign a const variable?",
+    "answer1": "It will change the value",
+    "answer2": "It will throw an error",
+    "answer3": "It will create a new variable",
+    "answer4": "It will be ignored",
+    "correctanswer": 2
+  },
+  {
+    "question": "Which of the following is the correct way to define a global variable?",
+    "answer1": "Using const within a function",
+    "answer2": "Using let within a function",
+    "answer3": "Using var outside of any function or block",
+    "answer4": "Using const outside of any function or block",
+    "correctanswer": 3
+  },
+  {
+    "question": "What is the default return value of a function that does not explicitly return a value?",
+    "answer1": "undefined",
+    "answer2": "null",
+    "answer3": "0",
+    "answer4": "false",
+    "correctanswer": 1
+  },
+  {
+    "question": "How do you define a function expression in JavaScript?",
+    "answer1": "function add() { ... }",
+    "answer2": "let add = function() { ... }",
+    "answer3": "function = add() { ... }",
+    "answer4": "let add() { ... }",
+    "correctanswer": 2
+  },
+  {
+    "question": "Which is an example of a higher-order function?",
+    "answer1": "function myFunction() { ... }",
+    "answer2": "setTimeout(() => { ... }, 1000)",
+    "answer3": "function(a, b) { return a + b; }",
+    "answer4": "const add = 5 + 3;",
+    "correctanswer": 2
+  },
+  {
+    "question": "In JavaScript, what does the this keyword refer to in a global context?",
+    "answer1": "window object in the browser",
+    "answer2": "document object in the browser",
+    "answer3": "Current function",
+    "answer4": "Undefined",
+    "correctanswer": 1
+  },
+  {
+    "question": "What does this refer to in a regular function?",
+    "answer1": "The global object",
+    "answer2": "The function itself",
+    "answer3": "The caller of the function",
+    "answer4": "The last object created",
+    "correctanswer": 1
+  },
+  {
+    "question": "Which of the following is a correct arrow function syntax?",
+    "answer1": "(a, b) => { return a + b; }",
+    "answer2": "function => (a, b) { return a + b; }",
+    "answer3": "(a, b) => return a + b;",
+    "answer4": "let add = a, b => { return a + b; }",
+    "correctanswer": 1
+  },
+  {
+    "question": "How does this behave differently in arrow functions compared to regular functions?",
+    "answer1": "this refers to the global object in arrow functions",
+    "answer2": "this is lexically bound, meaning it uses this from the enclosing context",
+    "answer3": "this always refers to the function itself in arrow functions",
+    "answer4": "this does not exist in arrow functions",
+    "correctanswer": 2
+  },
+  {
+    "question": "Which of the following statements about arrow functions is true?",
+    "answer1": "Arrow functions cannot be used as methods in an object",
+    "answer2": "Arrow functions automatically bind this to the global scope",
+    "answer3": "Arrow functions can be used with arguments object",
+    "answer4": "Arrow functions are syntactically similar to const functions",
+    "correctanswer": 1
+  },
+  {
+    "question": "What is block scope in JavaScript?",
+    "answer1": "Scope of variables defined within a single line",
+    "answer2": "Scope of variables defined within a block { }",
+    "answer3": "Scope of variables defined globally",
+    "answer4": "Scope of variables within functions only",
+    "correctanswer": 2
+  },
+  {
+    "question": "Which variables are accessible within a function's scope?",
+    "answer1": "Only the variables declared within the function",
+    "answer2": "Only global variables",
+    "answer3": "Variables defined in the function and any parent scopes",
+    "answer4": "None of the above",
+    "correctanswer": 3
+  },
+  {
+    "question": "What will array.push(4) do if array = [1, 2, 3]?",
+    "answer1": "Returns [1, 2, 3]",
+    "answer2": "Adds 4 to the beginning",
+    "answer3": "Adds 4 to the end of the array",
+    "answer4": "Throws an error",
+    "correctanswer": 3
+  },
+  {
+    "question": "How do you create a copy of an array in JavaScript?",
+    "answer1": "let newArray = array.copy()",
+    "answer2": "let newArray = array.map()",
+    "answer3": "let newArray = [...array]",
+    "answer4": "let newArray = array.slice(1)",
+    "correctanswer": 3
+  },
+  {
+    "question": "What is the syntax for using template literals in JavaScript?",
+    "answer1": "\"string ${variable}\"",
+    "answer2": "'string ${variable}'",
+    "answer3": "`string ${variable}`",
+    "answer4": "None of the above",
+    "correctanswer": 3
+  },
+  {
+    "question": "Which of the following correctly uses a template literal to embed a variable name?",
+    "answer1": "console.log('Hello ' + name);",
+    "answer2": "console.log(Hello ${name});",
+    "answer3": "console.log(\"Hello ${name}\");",
+    "answer4": "console.log('Hello name');",
+    "correctanswer": 3
+  },
+  {
+    "question": "How do you enable strict mode in JavaScript?",
+    "answer1": "use strict;",
+    "answer2": "'strict mode';",
+    "answer3": "import 'strict mode';",
+    "answer4": "\"use strict\";",
+    "correctanswer": 4
+  },
+  {
+    "question": "What is one primary benefit of strict mode in JavaScript?",
+    "answer1": "It speeds up code execution",
+    "answer2": "It allows the use of undeclared variables",
+    "answer3": "It prevents the use of certain error-prone practices",
+    "answer4": "It removes all warnings",
+    "correctanswer": 3
+  },
+  {
+    "question": "What will happen if JavaScript encounters an undeclared variable in strict mode?",
+    "answer1": "It will silently ignore it",
+    "answer2": "It will treat it as a global variable",
+    "answer3": "It will throw a reference error",
+    "answer4": "It will treat it as undefined",
+    "correctanswer": 3
+  },
+  {
+    "question": "Which characters are allowed in JavaScript variable names?",
+    "answer1": "Letters, digits, underscores, and dollar signs",
+    "answer2": "Letters only",
+    "answer3": "Letters and symbols",
+    "answer4": "Only letters and underscores",
+    "correctanswer": 1
+  },
+  {
+    "question": "What does the typeof operator return for an array in JavaScript?",
+    "answer1": "'object'",
+    "answer2": "'array'",
+    "answer3": "'object[]'",
+    "answer4": "'undefined'",
+    "correctanswer": 1
+  },
+  {
+    "question": "What will be the output of console.log(5 + 2 * 3);?",
+    "answer1": "21",
+    "answer2": "11",
+    "answer3": "15",
+    "answer4": "17",
+    "correctanswer": 2
+  },
+  {
+    "question": "Which operator checks for both value and type equality in JavaScript?",
+    "answer1": "==",
+    "answer2": "=",
+    "answer3": "===",
+    "answer4": "!==",
+    "correctanswer": 3
+  },
+  {
+    "question": "What does typeof null return in JavaScript?",
+    "answer1": "'null'",
+    "answer2": "'object'",
+    "answer3": "'undefined'",
+    "answer4": "'NaN'",
+    "correctanswer": 2
+  },
+  {
+    "question": "Which of the following values is falsy in JavaScript?",
+    "answer1": "0",
+    "answer2": "\"\"",
+    "answer3": "null",
+    "answer4": "All of the above",
+    "correctanswer": 4
+  },
+  {
+    "question": "How do you check if a variable x is a number?",
+    "answer1": "x.isNumber()",
+    "answer2": "typeof x === 'number'",
+    "answer3": "isNaN(x)",
+    "answer4": "typeof x == number",
+    "correctanswer": 2
+  },
+  {
+    "question": "How do you define a method inside a JavaScript class?",
+    "answer1": "method() { ... } inside class body",
+    "answer2": "method: function() { ... } inside class body",
+    "answer3": "class.method() { ... }",
+    "answer4": "method = function() { ... }",
+    "correctanswer": 1
+  },
+  {
+    "question": "What is inheritance in JavaScript classes?",
+    "answer1": "Copying properties from one class to another",
+    "answer2": "Allowing a class to extend another class, inheriting its methods and properties",
+    "answer3": "A mechanism to make a property private",
+    "answer4": "Adding methods to classes dynamically",
+    "correctanswer": 2
+  },
+  {
+    "question": "Which keyword is used to extend a class from another class in JavaScript?",
+    "answer1": "inherit",
+    "answer2": "extends",
+    "answer3": "implement",
+    "answer4": "include",
+    "correctanswer": 2
+  },
+  {
+    "question": "Which keyword should you use to prevent reassignment of a variable?",
+    "answer1": "let",
+    "answer2": "const",
+    "answer3": "var",
+    "answer4": "static",
+    "correctanswer": 2
+  },
+  {
+    "question": "What will console.log(x); output if x is declared with let but not initialized?",
+    "answer1": "undefined",
+    "answer2": "Throws a reference error",
+    "answer3": "null",
+    "answer4": "0",
+    "correctanswer": 2
+  },
+  {
+    "question": "Which statement correctly declares a constant array?",
+    "answer1": "const arr = [];",
+    "answer2": "let const arr = [];",
+    "answer3": "arr const = [];",
+    "answer4": "arr = const [];",
+    "correctanswer": 1
+  },
+  {
+    "question": "How do you call a function myFunction with arguments 5 and 10?",
+    "answer1": "myFunction{5, 10}",
+    "answer2": "myFunction[5, 10]",
+    "answer3": "myFunction(5, 10)",
+    "answer4": "myFunction: 5, 10",
+    "correctanswer": 3
+  },
+  {
+    "question": "Which function does not return a value?",
+    "answer1": "console.log()",
+    "answer2": "Math.max()",
+    "answer3": "parseInt()",
+    "answer4": "alert()",
+    "correctanswer": 4
+  },
+  {
+    "question": "What does this refer to in a method of an object?",
+    "answer1": "Global object",
+    "answer2": "The object itself",
+    "answer3": "Window object",
+    "answer4": "Undefined",
+    "correctanswer": 2
+  },
+  {
+    "question": "What does this refer to in a function defined in strict mode?",
+    "answer1": "null",
+    "answer2": "Global object",
+    "answer3": "undefined",
+    "answer4": "Window object",
+    "correctanswer": 3
+  },
+  {
+    "question": "Why can't arrow functions be used as constructors in JavaScript?",
+    "answer1": "They don't support this",
+    "answer2": "They are not functions",
+    "answer3": "They throw errors when used with new",
+    "answer4": "They are always anonymous",
+    "correctanswer": 3
+  },
+  {
+    "question": "Which of the following is true about arrow functions?",
+    "answer1": "They inherit this from their enclosing context",
+    "answer2": "They bind this dynamically",
+    "answer3": "They redefine this",
+    "answer4": "They cannot take parameters",
+    "correctanswer": 1
+  },
+  {
+    "question": "What will for(let i = 0; i < 3; i++) { console.log(i); } output?",
+    "answer1": "0 1 2 3",
+    "answer2": "0 1 2",
+    "answer3": "1 2 3",
+    "answer4": "Nothing",
+    "correctanswer": 2
+  },
+  {
+    "question": "Which statement immediately stops a loop?",
+    "answer1": "break",
+    "answer2": "continue",
+    "answer3": "return",
+    "answer4": "stop",
+    "correctanswer": 1
+  },
+  {
+    "question": "What is the primary difference between let and var?",
+    "answer1": "let has function scope, and var has block scope",
+    "answer2": "let has block scope, and var has function scope",
+    "answer3": "Both are identical",
+    "answer4": "let can be redeclared",
+    "correctanswer": 2
+  },
+  {
+    "question": "Which keyword will give a variable a block scope?",
+    "answer1": "var",
+    "answer2": "global",
+    "answer3": "let",
+    "answer4": "static",
+    "correctanswer": 3
+  },
+  {
+    "question": "What does Array.isArray([1, 2, 3]) return?",
+    "answer1": "false",
+    "answer2": "true",
+    "answer3": "undefined",
+    "answer4": "null",
+    "correctanswer": 2
+  },
+  {
+    "question": "How do you find the length of an array in JavaScript?",
+    "answer1": "array.size",
+    "answer2": "array.length",
+    "answer3": "array.length()",
+    "answer4": "array.getSize()",
+    "correctanswer": 2
+  },
+  {
+    "question": "How do you insert a variable name into a template literal?",
+    "answer1": "Hello + name +",
+    "answer2": "'Hello + ${name}'",
+    "answer3": "`Hello ${name}`",
+    "answer4": "Hello (name)",
+    "correctanswer": 3
+  },
+  {
+    "question": "What is the main advantage of template literals over regular strings?",
+    "answer1": "They are always shorter",
+    "answer2": "They support multi-line strings and embedded expressions",
+    "answer3": "They run faster",
+    "answer4": "They enforce strict mode",
+    "correctanswer": 2
+  },
+  {
+    "question": "What happens if you assign a value to an undeclared variable in strict mode?",
+    "answer1": "The variable is automatically declared",
+    "answer2": "It throws a reference error",
+    "answer3": "It creates a new global variable",
+    "answer4": "It assigns undefined",
+    "correctanswer": 2
+  },
+  {
+    "question": "In which way can strict mode be applied to JavaScript code?",
+    "answer1": "Adding \"use strict\"; at the beginning of a script or function",
+    "answer2": "Declaring a const variable",
+    "answer3": "Using an arrow function",
+    "answer4": "Adding strict = true;",
+    "correctanswer": 1
+  },
+  {
+    "question": "What will console.log(x) output if x is not declared in the script but in strict mode?",
+    "answer1": "undefined",
+    "answer2": "Throws a reference error",
+    "answer3": "null",
+    "answer4": "It will create the variable automatically",
+    "correctanswer": 2
+  },
+  {
+    "question": "Which keyword is used to define private properties in a JavaScript class (as of ES2022)?",
+    "answer1": "private",
+    "answer2": "const",
+    "answer3": "# before the property name",
+    "answer4": "__ before the property name",
+    "correctanswer": 3
+  },
+  {
+    "question": "What will typeof function(){} === 'function' return?",
+    "answer1": "false",
+    "answer2": "true",
+    "answer3": "Throws an error",
+    "answer4": "undefined",
+    "correctanswer": 2
+  },
+  {
+    "question": "What is a closure in JavaScript?",
+    "answer1": "A nested function with access to the outer function's scope",
+    "answer2": "A way to initialize classes",
+    "answer3": "A way to end loops early",
+    "answer4": "A reserved keyword in strict mode",
+    "correctanswer": 1
+  }
+]
